@@ -1,12 +1,10 @@
 {
-  "name": "Rokit",
+  "name": "samantha-volk",
   "version": "0.0.5",
   "contributors": [
-    "Jasper Rooduijn <jasper.r@rodesk.nl>",
-    "Bart van der Waerden <bart@rodesk.nl>",
-    "Miljan Janjetovic <miljan@rodesk.nl>"
+    "Bart van der Waerden <bart@rodesk.nl>"
   ],
-  "homepage": "http://rodesk.nl",
+  "homepage": "http://samanthavolk.nl",
   "private": true,
   "engines": {
     "node": ">= 0.12.0",

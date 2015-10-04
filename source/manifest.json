@@ -53,7 +53,7 @@
   	"dist" : "assets/"
   },
   "config": {
-    "devUrl": "http://local.rokit.nl",
+    "devUrl": "http://local.samanthavolk.nl",
     "supportedBrowsers": [
       "last 2 versions",
       "ie 8",

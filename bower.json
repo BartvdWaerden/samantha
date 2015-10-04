@@ -1,10 +1,8 @@
 {
-  "name": "rokit",
-  "homepage": "http://rodesk.nl",
+  "name": "samantha-volk",
+  "homepage": "http://samanthavolk.nl",
   "authors": [
-    "Jasper Rooduijn <jasper.r@rodesk.nl>",
-    "Bart van der Waerden <bart@rodesk.nl>",
-    "Miljan Janjetovic <miljan@rodesk.nl>"
+    "Bart van der Waerden <bart@rodesk.nl>"
   ],
   "private": true,
   "dependencies": {
