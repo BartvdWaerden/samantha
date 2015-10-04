@@ -1,6 +1,5 @@
     <div role="contentinfo" class="c-content-info">
         <footer>
-            <p>2015 Rodesk</p>
         </footer>
     </div>
 
