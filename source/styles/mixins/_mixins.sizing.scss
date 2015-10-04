@@ -1,0 +1,60 @@
+/*----------------------------------------------------------------------------*\
+    #MIXINS SIZING
+\*----------------------------------------------------------------------------*/
+
+/**
+ * Size width + height
+ */
+
+@mixin u-size($width: 5px, $height: 5px) {
+    width: $width;
+    height: $height;
+}
+
+
+/**
+ * Size square (width and height are the same)
+ */
+
+@mixin u-square($size: 5px) {
+    @include u-size($size, $size);
+}
+
+
+/**
+ * Make an element shrink wrap its content.
+ */
+
+@mixin u-size-fit($param: false) {
+    @if $param == alt {
+        display: block;
+        width: auto;
+        float: right;
+    } @else {
+        display: block;
+        width: auto;
+        float: left;
+    }
+}
+
+
+/**
+ * Make an element fill the remaining space.
+ * N.B. This will hide overflow.
+ */
+
+@mixin u-size-fill() {
+    display: block;
+    width: auto;
+    overflow: hidden;
+}
+
+
+/**
+ * Make an element the width of its parent.
+ */
+
+@mixin u-size-full() {
+    display: block;
+    width: 100%;
+}

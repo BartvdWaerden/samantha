@@ -1,0 +1,19 @@
+{
+  "name": "rokit",
+  "homepage": "http://rodesk.nl",
+  "authors": [
+    "Jasper Rooduijn <jasper.r@rodesk.nl>",
+    "Bart van der Waerden <bart@rodesk.nl>",
+    "Miljan Janjetovic <miljan@rodesk.nl>"
+  ],
+  "private": true,
+  "dependencies": {
+    "modernizr": "2.8.2",
+    "jquery": "1.11.2"
+  },
+  "overrides": {
+    "modernizr": {
+      "main": "./modernizr.js"
+    }
+  }
+}

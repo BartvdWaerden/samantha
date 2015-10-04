@@ -1,0 +1,27 @@
+/*----------------------------------------------------------------------------*\
+    #MIXINS HIDE TEXT
+\*----------------------------------------------------------------------------*/
+
+/**
+ * 1. Scott Kellum method (http://wp.me/p4WtR-2xq).
+ * 2. H5BP method (http://j.mp/SjVjgP).
+ */
+
+@mixin u-is-hidden-text($param: false) {
+    @if $param == skm { /* 1 */
+        text-indent: 200%;
+        white-space: nowrap;
+        overflow: hidden;
+    } @else { /* 2 */
+        border: 0;
+        background-color: transparent;
+        overflow: hidden;
+
+        &:before {
+            display: block;
+            width: 0;
+            height: 100%;
+            content: '';
+        }
+    }
+}

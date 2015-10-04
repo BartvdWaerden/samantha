@@ -1,0 +1,11 @@
+/*----------------------------------------------------------------------------*\
+    #LAYOUT CONTENTINFO (aka site footer)
+\*----------------------------------------------------------------------------*/
+
+.c-content-info {
+    @include u-contain-padding();
+
+    margin-top: 0;
+
+    footer { padding: rhythm(1.5) rhythm(0); }
+}

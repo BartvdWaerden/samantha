@@ -1,0 +1,176 @@
+/*----------------------------------------------------------------------------*\
+    #MODULES FORMS
+\*----------------------------------------------------------------------------*/
+
+.c-form {
+    margin-bottom: rhythm(1);
+
+    fieldset {
+        margin: 0 0 rhythm(1);
+        padding: 0;
+        border: 0;
+    }
+
+    .is-error {
+        .c-form-label,
+        .c-form-helper-error { color: rgb(255, 0, 0); }
+
+        .c-form-input { border: .125em solid rgb(255, 0, 0); }
+    }
+}
+
+
+/* Fieldset */
+
+/**
+ * Group sets of form fieldsets in a (ordered) list, e.g.:
+ * <form class="c-form">
+ *    <fieldset>
+ *       <ol class="c-form-fields">
+ *          <li class="c-form-item c-form-item--stacked">
+ *             <label for="text" class="c-form-label">...</label>
+ *             <input id="text" type="text">
+ *          </li>
+ *          <li class="c-form-item c-form-item--stacked">
+ *             ...
+ *          </li>
+ *          <li class="c-form-item">
+ *             ...
+ *          </li>
+ *       </ol>
+ * </form>
+ */
+
+.c-form-fields {
+
+    .copy & { /* Reset form list within .copy class. */
+        margin-left: 0;
+
+        li { list-style: none; }
+    }
+}
+
+.c-form label,
+.c-form input,
+.c-form textarea,
+.c-form select {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.c-form--inline .c-form-item {
+    display: inline-block;
+    margin-right: rhythm(1);
+}
+
+.c-form-item { margin-bottom: rhythm(1); }
+
+.c-form-label { font-weight: 600;}
+
+.c-form-item--stacked .form-label {
+    display: block;
+    margin-bottom: rhythm(.5);
+}
+
+.c-form-input {
+    padding: rhythm(.25); /* To keep vertical rhythm it should be smaller than rhythm podding of `.c-form-label`. */
+    // outline: none; /* Disbale default browser focus outline (make sure to add custom focus styling). */
+    border: .125em solid $color-gray;
+    background-color: $color-gray-light;
+    -webkit-appearance: none; /* Reset iOS inset schaodw on inputs. */
+
+    @include input-placeholder {
+        color: $color-gray-light;
+    }
+
+    &:focus {
+        border-color: $color-gray;
+        background-color: $color-white;
+    }
+}
+
+.c-form-input--full { width: 100%; }
+
+
+/**
+ * Override the normalize.css search input `box-sizing` normalization.
+ */
+
+.c-form-input[type="search"] { box-sizing: border-box; }
+
+
+/**
+ * Extra help text after input on focus:
+ * <li class="c-form-item c-form-item--stacked">
+ *    <label class="c-form-label">Label text</label>
+ *    <input class="c-form-input"/>
+ *    <small class="c-form-helper">Helper text</small>
+ * </li>
+ */
+
+.c-form-helper {
+    display: inline-block;
+    visibility: hidden;
+}
+
+.c-form-input:active + .form-helper,
+.c-form-input:focus + .form-helper {
+    visibility: visible;
+}
+
+
+/**
+ * Set optional label like this:
+ * <label class="c-form-label">Label text <small class="c-form-optional">(Optional)</small></label>
+ */
+
+.c-form-optional { font-weight: normal; }
+
+
+/**
+ * Error handling (inline).
+ */
+
+.c-form-helper-error { display: inline-block; }
+
+/**
+ * Lists of checkboxes and radio buttons, e.g.:
+ * <li class="c-form-item c-form-item--stacked">
+ *    <fieldset>
+ *       <span class="c-form-label">Radio set</span>
+ *       <ul class="c-input-set c-input-set--horizontal">
+ *          <li>
+ *             <label class="c-input-set-label">
+ *                <input type="radio" class="c-radio" name="radioset" value="Option 1"/>
+ *                <span>Option 1</span>
+ *             </label>
+ *          </li>
+ *          <li>
+ *             ...
+ *          </li>
+ *       </ul>
+ *    </fieldset>
+ * </li>
+ */
+
+
+.c-input-set { margin: 0; }
+
+
+/**
+ * Horizontal.
+ */
+
+.c-input-set--horizontal > li {
+    display: inline-block;
+    margin-right: rhythm(1);
+
+    &:last-child { margin-right: 0; }
+}
+
+
+/**
+ * Labels of checkboxes/radio buttons.
+ */
+
+.c-input-set-label { color: $color-gray; }

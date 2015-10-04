@@ -1,0 +1,41 @@
+/*----------------------------------------------------------------------------*\
+    #SETTINGS COLORS
+\*----------------------------------------------------------------------------*/
+
+/**
+ * Base colors.
+ */
+
+$color-black:                   rgb(0, 0, 0);
+$color-white:                   rgb(255, 255, 255);
+$color-blue:                    rgb(24, 16, 248);
+$color-green:                   rgb(72, 136, 16);
+$color-red:                     rgb(216, 8, 16);
+$color-yellow:                  rgb(248, 240, 8);
+$color-orange:                  rgb(248, 104, 8);
+
+
+/**
+ * Grays.
+ */
+
+$color-gray-darker:             tint($color-black, 5%);
+$color-gray-dark:               tint($color-black, 10%);
+$color-gray:                    tint($color-black, 50%);
+$color-gray-light:              tint($color-black, 90%);
+$color-gray-lighter:            tint($color-black, 95%);
+
+
+/**
+ * Project colors.
+ */
+
+$color-primary:                 rgb(2, 177, 222);
+$color-primary-light:           tint($color-primary, 50%);
+$color-primary-dark:            shade($color-primary, 50%);
+
+$color-secondary:               rgb(162, 200, 0);
+$color-secondary-light:         tint($color-secondary, 50%);
+$color-secondary-dark:          shade($color-secondary, 50%);
+
+$color-accent:                  rgb(255, 192, 0);

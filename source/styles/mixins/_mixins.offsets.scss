@@ -1,0 +1,34 @@
+/*----------------------------------------------------------------------------*\
+    #MIXINS OFFSETS
+\*----------------------------------------------------------------------------*/
+
+/**
+ * Easily set an element's "trbl" values.
+ */
+
+$position-default: null !default;
+
+@mixin u-trbl($top: $position-default,
+            $right: $position-default,
+            $bottom: $position-default,
+            $left: $position-default) {
+    @each $data in top $top, right $right, bottom $bottom, left $left {
+        #{nth($data, 1)}: nth($data, 2);
+    }
+}
+
+@mixin u-top-left {
+    @include u-trbl(0, null, null, 0);
+}
+
+@mixin u-top-right {
+    @include u-trbl(0, 0, null, null);
+}
+
+@mixin u-bottom-left {
+    @include u-trbl(null, null, 0, 0);
+}
+
+@mixin u-bottom-right {
+    @include u-trbl(null, 0, 0, null);
+}

@@ -1,0 +1,14 @@
+/*----------------------------------------------------------------------------*\
+    #MIXINS INPUT PLACEHOLDER TEXT
+\*----------------------------------------------------------------------------*/
+
+/**
+ * @include input-placeholder {
+ *      color: #bfbfbf;
+ *      font-style: italic;
+ * }
+ */
+
+@mixin input-placeholder {
+    &:placeholder { @content; }
+}

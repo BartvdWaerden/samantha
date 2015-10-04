@@ -1,0 +1,35 @@
+/*----------------------------------------------------------------------------*\
+    #SETTINGS BREAKPOINTS
+\*----------------------------------------------------------------------------*/
+
+/**
+ * Breakpoints (target width in em's = pixel width / base font size).
+ * Adjust the breakpoints to best fit content and (visual) design.
+ */
+
+$breakpoints: (
+    small: (
+        break-value:            20em,                                /* 320px */
+        base-font-size:         88%                                  /*  14px */
+    ),
+    compact: (
+        break-value:            30em,                                /* 480px */
+        base-font-size:         94%                                  /*  15px */
+    ),
+    medium: (
+        break-value:            48em,                                /* 768px */
+        base-font-size:         100%                                 /*  16px */
+    ),
+    large: (
+        break-value:            64em,                               /* 1024px */
+        base-font-size:         106%                                /*   17px */
+    ),
+    wide: (
+        break-value:            80em,                               /* 1280px */
+        base-font-size:         113%                                /*   18px */
+    ),
+    huge: (
+        break-value:            120em,                              /* 1920px */
+        base-font-size:         125%                                /*   20px */
+    )
+);

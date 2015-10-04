@@ -1,0 +1,34 @@
+/*----------------------------------------------------------------------------*\
+    #MIXINS FONT FAMILIES
+\*----------------------------------------------------------------------------*/
+
+/**
+ * Fonts families.
+ */
+
+@mixin font-vars($weight: null, $letter-spacing: null, $line-height: null, $size: null) {
+    @if ($size != null) { font-size: $size; }
+    @if ($weight != null) { font-weight: $weight; }
+    @if ($line-height != null) { line-height: $line-height; }
+    @if ($letter-spacing != null) { letter-spacing: $letter-spacing; }
+}
+
+
+/**
+ * Shorthand font stack.
+ */
+
+@mixin font($font-family: $sans-font, $weight: null, $letter-spacing: null, $line-height: null, $size: null) {
+    @if $font-family != null { font-family: $font-family; }
+    @include font-vars($weight, $letter-spacing, $line-height, $size);
+}
+
+
+/**
+ * Headings.
+ */
+
+@mixin headings($weight: null, $letter-spacing: null, $line-height: null, $size: null) {
+    font-family: $headings;
+    @include font-vars($weight, $letter-spacing, $line-height, $size);
+}

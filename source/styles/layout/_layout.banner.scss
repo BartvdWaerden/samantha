@@ -1,0 +1,13 @@
+/*----------------------------------------------------------------------------*\
+    #LAYOUT BANNER (aka page header)
+\*----------------------------------------------------------------------------*/
+
+.c-banner {
+    @include u-clearfix();
+    @include u-contain-padding();
+
+    position: relative;
+    padding-top: rhythm(1);
+    padding-bottom: rhythm(1);
+    z-index: zindex(banner);
+}

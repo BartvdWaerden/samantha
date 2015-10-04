@@ -1,0 +1,73 @@
+/*----------------------------------------------------------------------------*\
+    #MIXINS VERTICAL RHYTHM
+\*----------------------------------------------------------------------------*/
+
+/**
+ * Private outputs rhythm values. For rem units.
+ */
+
+@mixin u-output-rhythm($property, $value) {
+    #{$property}: $value;
+}
+
+
+/**
+ * Apply leading whitespace as padding.
+ */
+
+@mixin u-padding-leader($lines: 1) {
+    @include u-output-rhythm(padding-top, rhythm($lines));
+}
+
+
+/**
+ * Apply trailing whitespace as padding.
+ */
+
+@mixin u-padding-trailer($lines: 1) {
+    @include u-output-rhythm(padding-bottom, rhythm($lines));
+}
+
+
+/**
+ * Apply leading whitespace as margin.
+ */
+
+@mixin u-margin-leader($lines: 1) {
+    @include u-output-rhythm(margin-top, rhythm($lines));
+}
+
+
+/**
+ * Apply trailing whitespace as margin.
+ */
+
+@mixin u-margin-trailer($lines: 1) {
+    @include u-output-rhythm(margin-bottom, rhythm($lines));
+}
+
+
+/**
+ * Shorthand mixin to apply whitespace for top and bottom margins.
+ */
+
+@mixin u-rhythm-margin(
+    $margin-leader: 1,
+    $margin-trailer: $margin-leader
+) {
+    @include u-margin-leader($margin-leader);
+    @include u-margin-trailer($margin-trailer);
+}
+
+
+/**
+ * Shorthand mixin to apply whitespace for top and bottom padding.
+ */
+
+@mixin u-rhythm-padding(
+    $padding-leader: 1,
+    $padding-trailer: $padding-leader
+) {
+    @include u-padding-leader($padding-leader);
+    @include u-padding-trailer($padding-trailer);
+}

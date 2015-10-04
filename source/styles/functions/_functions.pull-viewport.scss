@@ -1,0 +1,16 @@
+/*----------------------------------------------------------------------------*\
+    #FUNCTIONS PULL VIEWPORT
+\*----------------------------------------------------------------------------*/
+
+@function pull-viewport($viewport-padding) {
+
+    $viewport-width : 100;
+    $viewport-padding : strip-units($viewport-padding);
+
+    $viewport-padding-perc : ((100-($viewport-padding * 2))/100);
+    $content-width : ($viewport-width * $viewport-padding-perc);
+    $pull-viewport-width : $viewport-width / $content-width;
+    $pull-viewport-perc : $pull-viewport-width;
+
+    @return $pull-viewport-perc * $viewport-padding * 1%;
+}

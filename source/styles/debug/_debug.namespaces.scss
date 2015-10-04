@@ -1,0 +1,31 @@
+/*----------------------------------------------------------------------------*\
+    #DEBUG NAMESPACES
+\*----------------------------------------------------------------------------*/
+
+[class^="o-"],
+[class*=" o-"] {
+    @include debug-text('object');
+
+    outline: 5px solid rgb(255, 165, 0);
+}
+
+[class^="c-"],
+[class*=" c-"] {
+    @include debug-text('component');
+
+    outline: 5px solid rgb(0, 255, 255);
+}
+
+[class^="u-"],
+[class*=" u-"] {
+    @include debug-text('utility');
+
+    outline: 5px solid rgb(238, 130, 238);
+}
+
+[class^="_"],
+[class*=" _"] {
+    @include debug-text('hack, u should clean this up!');
+
+    outline: 5px solid rgb(255, 0, 0);
+}

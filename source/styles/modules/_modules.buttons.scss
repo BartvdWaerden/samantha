@@ -1,0 +1,110 @@
+/*----------------------------------------------------------------------------*\
+    #MODULES BUTTONS
+\*----------------------------------------------------------------------------*/
+
+/**
+ * The button classes are best applied to links, buttons, and submit inputs.
+ * These components can be used in forms, as calls to action, or as part of the
+ * general UI of the site/app.
+ *
+ * Recommended use:
+ *
+ * <a class="c-btn [c-btn--modifier]" role="button" href="[url]">Button text</a>
+ * <button class="c-btn [c-btn--modifier]" type="submit">Button text</button>
+ * <input class="c-btn [c-btn--modifier]" type="submit" value="Button text">
+ */
+
+
+/**
+ * Button
+ *
+ * 1. To remove rounded corners in Safari on iOS 5+.
+ * 2. For anchor button to behave nicely.
+ */
+
+
+.c-btn {
+    display: inline-block;
+    position: relative;
+    padding: rhythm(.5) rhythm(1);
+    border: 0;
+    border-radius: 0; /* 1 */
+    background: $color-gray;
+    color: $color-white;
+    line-height: inherit; /* 2 */
+    cursor: pointer;
+}
+
+
+/**
+ * Button states.
+ */
+
+.c-btn:hover,
+.c-btn:focus,
+.c-btn:active { text-decoration: none; }
+
+.c-btn:active {
+    top: 1px;
+    outline: none;
+}
+
+.c-btn:disabled,
+.c-btn.is-disabled {
+    &,
+    &:hover,
+    &:focus,
+    &:active {
+        top: 0;
+        background: $color-gray-light;
+        color: $color-white;
+        cursor: default;
+    }
+}
+
+
+/**
+ * Primary button.
+ */
+
+.c-btn--primary {
+    background: $color-primary;
+    color: $color-white;
+
+    &:hover { background: shade($color-primary, 10%); }
+
+    &:active { background: shade($color-primary, 10%); }
+}
+
+
+/**
+ * Secondary button.
+ */
+
+// .c-button--secondary {}
+
+
+
+
+
+/*----------------------------------------------------------------------------*\
+    #BUTTON SIZE MODIFIERS
+\*----------------------------------------------------------------------------*/
+
+.c-btn--small {
+    margin-bottom: rhythm(.5);
+    padding: rhythm(.25);
+}
+
+.c-btn--large {
+    margin-bottom: rhythm(.5);
+    padding: rhythm(.75) rhythm(1);
+}
+
+.c-btn--full {
+    display: block;
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    text-align: center;
+}

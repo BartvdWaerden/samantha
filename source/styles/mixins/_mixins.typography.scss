@@ -1,0 +1,77 @@
+/*----------------------------------------------------------------------------*\
+    #MIXINS TYPOGRAPHY
+\*----------------------------------------------------------------------------*/
+
+/**
+ * Base text size
+ *
+ * Generates procentual base font sizes for the the to be included breakpoints.
+ * Add to `html {}` or `body {}` element like this:
+ *
+ * html {
+ *   @include base-text-sizes();
+ * }
+ *
+ * 1. Loop through each breakpoint name to be included.
+ * 2. Check if breakpoint name is valid (exists in breakpoints list).
+ */
+
+@mixin base-text-sizes($default-breakpoint-name: 'small') {
+
+    /* 1 */
+    @each $breakpoint-to-include in $breakpoints-to-include {
+
+        /* 2 */
+        @if breakpoints-map($breakpoint-to-include) != null {
+
+            $base-text-size: base-font-size-for($breakpoint-to-include);
+            $line-height: text-line-height('base', $default-breakpoint-name, $lines: 1);
+
+            @if $base-text-size != null {
+
+                @if $breakpoint-to-include == 'small' {
+                    font-size: $base-text-size;
+                    line-height: $line-height;
+                } @else {
+                    @include breakpoint($breakpoint-to-include) {
+                        font-size: $base-text-size;
+                    }
+                }
+            } @else {
+                @warn 'Missing base font size for '#{default-$breakpoint-name}' breakpoint';
+            }
+
+        } @else {
+            @warn 'Breakpoint '#{$breakpoint-to-include}' is not in breakpoints list (settings)';
+        }
+
+    }
+}
+
+
+/**
+ * Text size
+ *
+ * 1. If font-size is set for given text size breakpoint.
+ */
+
+@mixin responsive-text-size($text-size-name, $default-breakpoint-name: 'small', $lines: 1) {
+    font-size: text-size($text-size-name, $default-breakpoint-name, $lines);
+    line-height: text-line-height($text-size-name, $default-breakpoint-name, $lines);
+
+    $text-breakpoints-map: text-breakpoints-for($text-size-name);
+    $text-breakpoints-keys: map-keys($text-breakpoints-map);
+
+    @each $breakpoint-name in $text-breakpoints-keys {
+        @if $breakpoint-name != $default-breakpoint-name and breakpoints-map($breakpoint-name) != null {
+            @include breakpoint($breakpoint-name) {
+                /* 1 */
+                $text-properties: text-properties-for($text-size-name, $breakpoint-name);
+                @if map-get($text-properties, 'font-size') != null {
+                    font-size: text-size($text-size-name, $breakpoint-name, $lines);
+                }
+                line-height: text-line-height($text-size-name, $breakpoint-name, $lines);
+            }
+        }
+    }
+}

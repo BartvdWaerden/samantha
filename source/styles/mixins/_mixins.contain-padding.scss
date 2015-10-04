@@ -1,0 +1,8 @@
+/*----------------------------------------------------------------------------*\
+    #MIXINS CONTAIN PADDING
+\*----------------------------------------------------------------------------*/
+
+@mixin u-contain-padding($padding: $contain-percentage) {
+    padding-right: $padding;
+    padding-left: $padding;
+}

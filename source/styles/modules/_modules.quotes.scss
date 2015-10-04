@@ -1,0 +1,77 @@
+/*----------------------------------------------------------------------------*\
+    #MODULES QUOTES
+\*----------------------------------------------------------------------------*/
+
+/**
+ * Quote (run-in quote).
+ */
+
+.o-quote {
+    quotes: none;
+
+    &:before { content: open-quote; }
+    &:after { content: close-quote; }
+}
+
+
+/**
+ * Blockquote
+ *
+ * A block quotation (also known as a long quotation or extract) is a quotation
+ * in a written document, that is set off from the main text as a paragraph, or
+ * block of text, and typically distinguished visually using indentation and a
+ * different typeface or smaller size quotation. (This is in contrast to a
+ * setting it off with quotation marks in a run-in quote.)
+ * Block quotations are used for the long quotation. The Chicago Manual of Style
+ * recommends using a block quotation when extracted text is 100 words or more,
+ * or at least eight lines.
+ */
+
+.c-blockquote {
+    margin-top: rhythm(1);
+    margin-bottom: rhythm(1);
+    padding-left: rhythm(.5);
+    border-left: rhythm(.25) solid $color-gray;
+    quotes: none;
+
+    @include breakpoint(medium) {
+        margin-left: rhythm(-.75);
+    }
+
+    p {
+        // @extend .o-quote;
+        display: inline;
+        margin: 0;
+        color: $color-gray-dark;
+        font-family: $sans-font;
+        font-weight: 600;
+        text-transform: uppercase;
+
+        &:before,
+        &:after { -webkit-font-smoothing: antialiased; }
+    }
+
+    figcaption {
+        color: $color-gray;
+
+        &:before { content: '— '; }
+    }
+}
+
+
+/**
+ * Pull quote
+ *
+ * Also known as a lift-out quote -- is a quotation
+ * or excerpt from an article that is typically placed in a larger or distinctive
+ * typeface on the same page (http://en.wikipedia.org/wiki/Pull_quote).
+ *
+ * Example HTML:
+ * <aside class="o-pullquote">
+ *   <blockquote>It is the unofficial force—the Baker Street irregulars.</blockquote>
+ * </aside>
+ */
+
+.o-pullquote {
+    @extend .c-blockquote;
+}

@@ -1,0 +1,28 @@
+/*----------------------------------------------------------------------------*\
+    #BASE PAGE
+\*----------------------------------------------------------------------------*/
+
+/**
+ * 1. Set the default `font-size` and `line-height` for the entire project,
+ *    sourced from a variables map. The `font-size` is calculated to exist
+ *    in %, the `line-height` is calculated to exist unitlessly.
+ * 2. `Font-size` is set to `small` size (without mq) for browsers that don't
+ *    cut the mustard (aka `no-ctm`).
+ * 3. Ensure the page always fills at least the entire height of the viewport.*
+ * 4. Force scrollbars to always be visible to prevent awkward ‘jumps’ when
+ *    navigating between pages that do/do not have enough content to produce
+ *    scrollbars naturally.
+ * 5. Prevent horizontal scrollbar when using layout grids!
+ */
+
+body,
+html { overflow-x: hidden; } /* 5 */
+
+html {
+    @include base-text-sizes(); /* 1, 2 */
+
+    min-height: 100%; /* 3 */
+    background-color: $background-color;
+    color: $color-black;
+    // overflow-y: auto; /* 4 */
+}

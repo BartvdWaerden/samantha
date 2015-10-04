@@ -1,0 +1,60 @@
+/*----------------------------------------------------------------------------*\
+    #MODULES IMAGES
+\*----------------------------------------------------------------------------*/
+
+/**
+ * Fluid images.
+ */
+
+img {
+    max-width: 100%;
+    height: auto;
+    // border: 0;
+}
+
+
+/**
+ * Images in `figure` elements.
+ */
+
+figure > img { display: block; }
+
+
+/**
+ * Non-fluid images explicitly.
+ */
+
+.o-image { max-width: none; }
+
+
+/**
+ * Rounded images.
+ */
+
+.o-image--round {
+    border-radius: .5em;
+}
+
+
+/**
+ * Image placement variations.
+ */
+
+.o-image--right {
+    margin-bottom: rhythm(.5);
+    margin-left: rhythm(.5);
+    float: right;
+}
+
+.o-image--left {
+    margin-right: rhythm(.5);
+    margin-bottom: rhythm(.5);
+    float: left;
+}
+
+.o-image--center {
+    display: block;
+    margin-right: auto;
+    margin-bottom: rhythm(.5);
+    margin-left: auto;
+}

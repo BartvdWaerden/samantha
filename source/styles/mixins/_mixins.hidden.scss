@@ -1,0 +1,23 @@
+/*----------------------------------------------------------------------------*\
+    #MIXIN HIDE ELEMENTS
+\*----------------------------------------------------------------------------*/
+
+@mixin u-is-hidden($param: hidden) {
+
+    /* Completely remove from the flow and screen readers. */
+    @if($param == hidden) {
+        display: none;
+        visibility: hidden;
+    }
+
+    /* Completely remove from the flow but leave available to screen readers. */
+    @if($param == visually) {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        border: 0;
+        overflow: hidden;
+        clip: rect(1px, 1px, 1px, 1px);
+    }
+}

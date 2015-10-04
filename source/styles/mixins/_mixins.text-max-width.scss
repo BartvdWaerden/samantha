@@ -1,0 +1,9 @@
+/*----------------------------------------------------------------------------*\
+    #MIXINS TEXT MAX WIDTH
+\*----------------------------------------------------------------------------*/
+
+@mixin u-text-max-width($padding: $contain-percentage) {
+    max-width: $text-max-width;
+    margin-right: auto; // Center maximized text 'column'.
+    margin-left: auto;
+}

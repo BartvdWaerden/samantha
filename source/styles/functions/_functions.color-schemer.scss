@@ -1,0 +1,19 @@
+/*----------------------------------------------------------------------------*\
+    #FUNCTIONS COLOR SCHEMER
+\*----------------------------------------------------------------------------*/
+
+/**
+ * Tint/Shade
+ *
+ * Tint = Add percentage of white to a color.
+ * Shade = Add percentage of black to a color.
+ */
+
+@function tint($color, $percent) {
+    @return mix($color-white, $color, $percent);
+}
+
+@function shade($color, $percent) {
+    @return mix($color-black, $color, $percent);
+}
+

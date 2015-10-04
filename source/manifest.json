@@ -1,0 +1,66 @@
+{
+  "dependencies": {
+    "main.js": {
+      "files": [
+        "scripts/breakpoints.js",
+        "scripts/defaults.js",
+        "scripts/main.js"
+      ],
+      "main": true
+    },
+    "mobile.js": {
+      "files": [
+        "scripts/breakpoints.js",
+        "scripts/defaults.js",
+        "scripts/mobile.js"
+      ]
+    },
+    "style.css": {
+      "files": [
+        "styles/style.scss"
+      ],
+      "main": true
+    },
+    "style-mobile.css": {
+      "files": [
+        "styles/style-mobile.scss"
+      ]
+    },
+    "style-ie.css": {
+      "files": [
+        "styles/style-ie.scss"
+      ]
+    },
+    "print.css": {
+      "files": [
+        "styles/print.scss"
+      ]
+    },
+    "debug.css": {
+      "files": [
+        "styles/debug.scss"
+      ]
+    },
+    "jquery.js": {
+      "bower": ["jquery"]
+    },
+    "modernizr.js": {
+      "bower": ["modernizr"]
+    }
+  },
+  "paths": {
+  	"source" : "source/",
+  	"dist" : "assets/"
+  },
+  "config": {
+    "devUrl": "http://local.rokit.nl",
+    "supportedBrowsers": [
+      "last 2 versions",
+      "ie 8",
+      "ie 9",
+      "android 2.3",
+      "android 4",
+      "opera 12"
+    ]
+  }
+}

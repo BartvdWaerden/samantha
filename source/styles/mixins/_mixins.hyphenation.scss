@@ -1,0 +1,11 @@
+/*----------------------------------------------------------------------------*\
+    #MIXINS HYPHENATION
+\*----------------------------------------------------------------------------*/
+
+@mixin u-hyphenate($hyphen: true) {
+    @if $hyphen == true {
+        hyphens: auto;
+    } @else if($hyphen == false) {
+        hyphens: none;
+    }
+}

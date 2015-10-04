@@ -1,0 +1,44 @@
+/*----------------------------------------------------------------------------*\
+    #MODULES HEADINGS
+\*----------------------------------------------------------------------------*/
+
+/**
+ * Shared heading settings.
+ */
+
+%u-heading-settings { letter-spacing: .01em; }
+
+
+/**
+ * Heading sizes.
+ */
+
+// .u-tera-heading {}
+// .u-giga-heading {}
+// .u-mega-heading {}
+
+.u-alpha-heading {
+    @extend %u-heading-settings;
+    @include responsive-text-size('alpha');
+}
+
+.u-beta-heading {
+    @extend %u-heading-settings;
+    @include responsive-text-size('beta');
+}
+
+.u-gamma-heading {
+    @extend %u-heading-settings;
+    @include responsive-text-size('gamma');
+}
+
+.u-delta-heading {
+    @extend %u-heading-settings;
+    @include responsive-text-size('delta');
+}
+
+.u-epsilon-heading,
+.u-zeta-heading {
+    @extend %u-heading-settings;
+    @include responsive-text-size('epsilon');
+}
