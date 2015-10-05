@@ -1,0 +1,51 @@
+/*----------------------------------------------------------------------------*\
+    #LAYOUT CONTENT
+\*----------------------------------------------------------------------------*/
+
+.o-section {
+	@include u-rhythm-padding(2);
+
+	background-color: $color-white;
+
+	h2,
+	p { 
+		margin-right: auto; 
+		margin-left: auto; 
+	}
+
+	h2 { 
+		margin-bottom: rhythm(3.25);
+		text-align: center;
+		text-transform: uppercase;
+
+		&:after {
+			@include u-size(50px, 2px);
+
+			display: block;
+			margin: rhythm(.5) auto 0 auto;
+			background-color: $color-primary;
+			content: '';
+		}
+	}
+
+	p { 
+		margin-bottom: rhythm(1.5);		
+		max-width: $text-max-width;
+		text-align: justify;
+	}
+
+	a {
+		text-align: center;
+	}
+}
+
+.o-section--primary,
+.o-section--secondary { 
+	color: $color-white; 
+
+	h2:after { background-color: $color-white; }
+}
+
+.o-section--primary { background-color: $color-primary; }
+
+.o-section--secondary { background-color: $color-secondary; }

@@ -30,12 +30,6 @@ $color-gray-lighter:            tint($color-black, 95%);
  * Project colors.
  */
 
-$color-primary:                 rgb(2, 177, 222);
-$color-primary-light:           tint($color-primary, 50%);
-$color-primary-dark:            shade($color-primary, 50%);
+$color-primary:                 rgb(40, 180, 162);
 
-$color-secondary:               rgb(162, 200, 0);
-$color-secondary-light:         tint($color-secondary, 50%);
-$color-secondary-dark:          shade($color-secondary, 50%);
-
-$color-accent:                  rgb(255, 192, 0);
+$color-secondary:               rgb(74, 74, 74);

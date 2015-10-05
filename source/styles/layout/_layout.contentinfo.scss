@@ -5,7 +5,7 @@
 .c-content-info {
     @include u-contain-padding();
 
-    margin-top: 0;
+    text-align: center;
 
     footer { padding: rhythm(1.5) rhythm(0); }
 }

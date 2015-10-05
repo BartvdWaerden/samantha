@@ -1,0 +1,18 @@
+/*----------------------------------------------------------------------------*\
+    #MODULES CARDS
+\*----------------------------------------------------------------------------*/
+
+.c-card {
+	margin-bottom: rhythm(2.5);
+}
+
+// .c-card__image {
+
+// }
+
+.c-card__content {
+	padding: rhythm(.5) rhythm(1);
+	text-align: center;
+	background-color: $color-secondary;
+	color: $color-white;
+}

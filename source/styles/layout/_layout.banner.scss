@@ -3,11 +3,14 @@
 \*----------------------------------------------------------------------------*/
 
 .c-banner {
-    @include u-clearfix();
+	@include u-rhythm-padding(1);
     @include u-contain-padding();
-
-    position: relative;
-    padding-top: rhythm(1);
-    padding-bottom: rhythm(1);
-    z-index: zindex(banner);
+    @include translucent-border($color-white, .7);
+    @include u-z-index('banner');
+	
+    position: fixed;
+    width: 100%;
+    border-width: 2px;
+    border-bottom-style: solid;
+    background-color: rgba($color-white, .5);
 }

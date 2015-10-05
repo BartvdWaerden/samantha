@@ -9,3 +9,5 @@
 .u-pull-left { float: left; }
 
 .u-pull-right { float: right; }
+
+.u-is-visually-hidden { @include u-is-hidden(visually); }
