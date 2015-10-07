@@ -3,9 +3,52 @@
 \*----------------------------------------------------------------------------*/
 
 .c-content-info {
-    @include u-contain-padding();
-
     text-align: center;
 
-    footer { padding: rhythm(1.5) rhythm(0); }
+    h2 {
+        @include responsive-text-size('beta');
+
+        text-transform: uppercase;
+    }
+
+    p { margin-bottom: 0; }
+
+    ul {
+        @include u-rhythm-margin(2.5);
+
+        li {
+            display: inline-block;
+
+            a {
+                @include u-square(60px);
+                @include u-is-hidden-text();
+                
+                display: block;
+                margin: 0 rhythm(.25);
+                border: 2px solid rgba($color-white, .7);
+                border-radius: 50%;
+
+                &:hover {
+                    background-color: rgba($color-white, .7);
+                    border: 2px solid rgba($color-white, 0);
+                }
+            }
+        }
+    }
+
+    span {
+        @include responsive-text-size('nano');
+
+        color: $color-gray;
+    }
+
 }
+
+.c-icon {   
+    @include u-square(20px);
+
+    position: relative;
+}
+
+.c-icon--email { background-position: 18px 18px; }
+.c-icon--linkedin { background-position: -78px 16px; }

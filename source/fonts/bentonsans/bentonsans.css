@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'benton-sans-light';
+  src: url('BentonSans-Light.eot'); /* IE9 Compat Modes */
+  src: url('BentonSans-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('BentonSans-Light.woff') format('woff'), /* Modern Browsers */
+       url('BentonSans-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('BentonSans-Light.svg#f78597f6497138650c310eebac22df9c') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  200;
+}
+
+@font-face {
+  font-family: 'benton-sans';
+  src: url('BentonSans-Regular.eot'); /* IE9 Compat Modes */
+  src: url('BentonSans-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('BentonSans-Regular.woff') format('woff'), /* Modern Browsers */
+       url('BentonSans-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('BentonSans-Regular.svg#f1d45ea4178b7db4f7c077231d11400e') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+

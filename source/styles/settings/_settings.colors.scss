@@ -8,22 +8,15 @@
 
 $color-black:                   rgb(0, 0, 0);
 $color-white:                   rgb(255, 255, 255);
-$color-blue:                    rgb(24, 16, 248);
-$color-green:                   rgb(72, 136, 16);
-$color-red:                     rgb(216, 8, 16);
-$color-yellow:                  rgb(248, 240, 8);
-$color-orange:                  rgb(248, 104, 8);
 
 
 /**
  * Grays.
  */
 
-$color-gray-darker:             tint($color-black, 5%);
-$color-gray-dark:               tint($color-black, 10%);
-$color-gray:                    tint($color-black, 50%);
-$color-gray-light:              tint($color-black, 90%);
-$color-gray-lighter:            tint($color-black, 95%);
+$color-gray-dark:               rgb(74, 74, 74);
+$color-gray:                    rgb(147, 147, 147);
+$color-gray-light:              rgb(247, 247, 247);
 
 
 /**
@@ -31,5 +24,3 @@ $color-gray-lighter:            tint($color-black, 95%);
  */
 
 $color-primary:                 rgb(40, 180, 162);
-
-$color-secondary:               rgb(74, 74, 74);

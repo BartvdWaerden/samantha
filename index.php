@@ -31,7 +31,7 @@
                             </div>
                             <div class="c-card__content">
                                 <h3>Landgoed Rozephoeve</h3>
-                                <span>Interactie en visuel ontwerp</span>
+                                <span>Interactie en visueel ontwerp</span>
                             </div>
                         </div>
                     </div>
@@ -45,7 +45,7 @@
                             </div>
                             <div class="c-card__content">
                                 <h3>Vakantieboulevard 404</h3>
-                                <span>Interactie en visuel ontwerp</span>
+                                <span>Interactie en visueel ontwerp</span>
                             </div>
                         </div>
                     </div>
@@ -59,13 +59,13 @@
                             </div>
                             <div class="c-card__content">
                                 <h3>Rodesk Projectinventarisatie</h3>
-                                <span>Interactie en visuel ontwerp</span>
+                                <span>Interactie en visueel ontwerp</span>
                             </div>
                         </div>
                     </div>  
 
                     <div class="o-grid-cell u-size1of2--compact u-size1of3--large">
-                        <div class="c-card js-block">
+                        <div class="c-card c-card--4 js-block">
                             <div class="c-card__image">
                                 <a href="motion-graphic.php">
                                     <img src="assets/images/card-motion-graphic.jpg" alt="Motion Graphic">
@@ -79,7 +79,7 @@
                     </div>                                          
 
                     <div class="o-grid-cell u-size1of2--compact u-size1of3--large">
-                        <div class="c-card js-block">
+                        <div class="c-card c-card--5 js-block">
                             <div class="c-card__image">
                                 <a href="huisstijl.php">
                                     <img src="assets/images/card-mijn-eigen-huisstijl.jpg" alt="Mijn eigen huisstijl">
@@ -93,11 +93,11 @@
                     </div>                                      
 
                     <div class="o-grid-cell u-size1of2--compact u-size1of3--large">
-                        <div class="c-card js-block">
+                        <div class="c-card c-card--6 js-block">
                             <div class="c-card__image">
                                 <img src="assets/images/card-minor-iuxd.jpg" alt="Minor IUXD">
                             </div>
-                            <div class="c-card__content">
+                            <div class="c-card__content c-card--inactive">
                                 <h3>Minor IUXD</h3>
                                 <span>Binnenkort beschikbaar</span>
                             </div>
@@ -114,7 +114,9 @@
                 <p>Ik ben een enthausiaste UX Desiger, en zit op dit moment in mijn laatste jaar van de opleiding CMD aan de Hogeschool Rotterdam.</p>
                 <p>Omdat ik in mijn laatste studiejaar zit, ben ik op zoek naar een afstudeerplek die geintresseerd is in mijn afstudeeronderwerp, namelijk: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
                 <p>Ben je net zo geintresseerd in dit onderwerp als ik ben? Kan ik bij jouw bedrijf terecht? Ik kom graag praten over een afstudeer plek!</p>
-                <a class="c-btn" href="mailto:contact@samanthavolk.nl">Neem contact met mij op</a>
+                <div class="u-text-center">
+                    <a class="c-btn" href="mailto:contact@samanthavolk.nl">Neem contact met mij op</a>
+                </div>
             </div>
         </div>
 

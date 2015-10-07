@@ -2,17 +2,36 @@
     #MODULES CARDS
 \*----------------------------------------------------------------------------*/
 
-.c-card {
-	margin-bottom: rhythm(2.5);
+.c-card { margin-bottom: rhythm(2.5); }
+
+.c-card__image img {
+	vertical-align: top;
 }
-
-// .c-card__image {
-
-// }
 
 .c-card__content {
-	padding: rhythm(.5) rhythm(1);
+	padding: rhythm(.75) rhythm(1);
 	text-align: center;
-	background-color: $color-secondary;
+	background-color: $color-gray-dark;
 	color: $color-white;
+
+	span {
+		@include responsive-text-size('nano');
+
+		font-style: oblique;
+	}
 }
+
+.c-card--4 {
+	@include breakpoint(large) {
+		margin-bottom: 0;
+	}
+}
+
+.c-card--5,
+.c-card--6 {
+	@include breakpoint(compact) {
+		margin-bottom: 0;
+	}
+}
+
+.c-card--inactive { opacity: .5; }

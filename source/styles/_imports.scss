@@ -81,7 +81,7 @@
 
 @import 'utils/utils.layout';
 // @import 'utils/utils.spacing';
-// @import 'utils/utils.text';
+@import 'utils/utils.text';
 
 
 
@@ -91,7 +91,8 @@
     #MODULES (alphabetical)
 \*----------------------------------------------------------------------------*/
 
-// @import 'modules/modules.backgrounds';
+@import 'modules/modules.animations';
+@import 'modules/modules.backgrounds';
 @import 'modules/modules.buttons';
 @import 'modules/modules.cards';
 @import 'modules/modules.copy';

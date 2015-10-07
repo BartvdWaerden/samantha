@@ -5,12 +5,11 @@
 .c-banner {
 	@include u-rhythm-padding(1);
     @include u-contain-padding();
-    @include translucent-border($color-white, .7);
     @include u-z-index('banner');
-	
+
+	display: none;
     position: fixed;
     width: 100%;
-    border-width: 2px;
-    border-bottom-style: solid;
+    border-bottom: 2px solid rgba($color-white,.7);
     background-color: rgba($color-white, .5);
 }

@@ -24,15 +24,23 @@
 
 
 .c-btn {
+    @include responsive-text-size('pico');
+
     display: inline-block;
     position: relative;
-    padding: rhythm(.5) rhythm(1);
-    border: 0;
+    padding: rhythm(.5) rhythm(1.25);
+    border: 2px solid rgba($color-white, .4);
     border-radius: 0; /* 1 */
-    background: $color-gray;
     color: $color-white;
     line-height: inherit; /* 2 */
     cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+    &:hover {
+        border: 2px solid rgba($color-white, 0);
+        background-color: rgba($color-white, .4);
+    }
 }
 
 

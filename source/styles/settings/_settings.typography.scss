@@ -6,10 +6,12 @@
  * Font stacks.
  */
 
-$sans-font:                     'Helvetica Neue', 'HelveticaNeue', Helvetica, Arial, ArialMT, sans-serif;
+$sans-font:                     'avenir-light', 'Helvetica Neue', 'HelveticaNeue', Helvetica, Arial, ArialMT, sans-serif;
+$sans-font-medium:              'avenir-medium', 'Helvetica Neue', 'HelveticaNeue', Helvetica, Arial, ArialMT, sans-serif;
 $serif-font:                    'Lucida Bright', 'LucidaBright', Georgia, serif;
 $mono-font:                     Monaco, 'Courier New', 'CourierNewPSMT', Courier, monospace, serif;
-$heading-font:                  'Helvetica Neue Condensed Bold', 'HelveticaNeue-CondensedBold', 'Arial Narrow Bold', 'ArialNarrow-Bold', 'Arial Narrow', 'ArialNarrow', 'Helvetica Neue', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+$heading-font:                  'benton-sans', 'Helvetica Neue Condensed Bold', 'HelveticaNeue-CondensedBold', 'Arial Narrow Bold', 'ArialNarrow-Bold', 'Arial Narrow', 'ArialNarrow', 'Helvetica Neue', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+$heading-font-light:            'benton-sans-light', 'Helvetica Neue Condensed Bold', 'HelveticaNeue-CondensedBold', 'Arial Narrow Bold', 'ArialNarrow-Bold', 'Arial Narrow', 'ArialNarrow', 'Helvetica Neue', 'HelveticaNeue', Helvetica, Arial, sans-serif;
 
 
 /**
@@ -38,21 +40,21 @@ $text-max-width:                30rem;
 $text-sizing: (
     pico: (
         small: (
-            font-size:          .75rem,
-            // line-height:          1
+            font-size:              0.6470588235rem,
+            // line-height:         1
         )
     ),
     nano: (
         small: (
-            font-size:          .875rem,
-            // line-height:        1.25
+            font-size:          0.7647058824rem,
+            line-height:        1.25
         )
     ),
     base: (
         small: (
             font-size:          1rem,
-            line-height:        1.375
-        )
+            line-height:        1.6666666667
+        ),
     ),
     zeta: (
         small: (
@@ -78,44 +80,20 @@ $text-sizing: (
     ),
     gamma: (
         small: (
-            font-size:          1.375rem,
+            font-size:             1.0588235294rem,
             line-height:           1.136
-        ),
-        medium: (
-            font-size:          1.5rem,
-            // line-height:       1.25
-        ),
-        large: (
-            font-size:          1.75rem,
-            // line-height:        1.25
         )
     ),
     beta: (
         small: (
-            font-size:          1.625rem,
+            font-size:             2.0588235294rem,
             line-height:           1.154
-        ),
-        medium: (
-            font-size:          2rem,
-            // line-height:     1.25
-        ),
-        large: (
-            font-size:          2.25rem,
-            // line-height:        1.25
         )
     ),
     alpha: (
         small: (
-            font-size:          2rem,
-            line-height:        1.25
-        ),
-        medium: (
-            font-size:          2.5rem,
-            // line-height:      1.125
-        ),
-        large: (
-            font-size:          3rem,
-            // line-height:     1.05
+            font-size:          2.0588235294rem,
+            line-height:        1.4
         )
     ),
     // mega: (),

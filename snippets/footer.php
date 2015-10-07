@@ -1,13 +1,14 @@
-    <div role="contentinfo" class="c-content-info o-section o-section--secondary" id="contact">
+    <div role="contentinfo" class="c-content-info o-section o-section--footer o-section--secondary" id="contact">
         <footer>
-            <h1>Contact</h1>
-            <p>Heeft u vragen? U kunt mij altijd mailen! Daarnaast ben ik ook te vinden op LinkedIn</p>
+            <h2>Contact</h2>
+            <p>Heeft u vragen? U kunt mij altijd mailen!</p>
+            <p>Daarnaast ben ik ook te vinden op LinkedIn.</p>
             <ul>
                 <li>
-                    <a href="mailto:contact@samanthavolk.nl">E-mail mij</a>
+                    <a class="c-icon c-icon--email" href="mailto:contact@samanthavolk.nl">E-mail mij</a>
                 </li>
                 <li>
-                    <a href="https://www.linkedin.com/samanthavolk" target="_blank">Vind mij op LinkedIn</a>
+                    <a class="c-icon c-icon--linkedin" href="https://www.linkedin.com/samanthavolk" target="_blank">Vind mij op LinkedIn</a>
                 </li>
             </ul>
             <span>&copy; 2015 Samantha Volk</span>

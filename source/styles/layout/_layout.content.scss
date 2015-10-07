@@ -3,7 +3,7 @@
 \*----------------------------------------------------------------------------*/
 
 .o-section {
-	@include u-rhythm-padding(2);
+	@include u-rhythm-padding(3.5);
 
 	background-color: $color-white;
 
@@ -29,14 +29,13 @@
 	}
 
 	p { 
-		margin-bottom: rhythm(1.5);		
+		margin-bottom: rhythm(1.25);		
 		max-width: $text-max-width;
-		text-align: justify;
 	}
 
-	a {
-		text-align: center;
-	}
+	a { text-align: center; }
+
+	.c-btn { margin-top: rhythm(1.5); }
 }
 
 .o-section--primary,
@@ -48,4 +47,8 @@
 
 .o-section--primary { background-color: $color-primary; }
 
-.o-section--secondary { background-color: $color-secondary; }
+.o-section--secondary { background-color: $color-gray-dark; }
+
+.o-section--footer {
+	@include u-rhythm-padding(4, 1.5);
+}

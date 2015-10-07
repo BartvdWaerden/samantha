@@ -1,16 +1,8 @@
 /*----------------------------------------------------------------------------*\
-    #SETTINGS PAGE
+    #MODULES ANIMATIONS
 \*----------------------------------------------------------------------------*/
 
-/**
- * Page (content) background color.
- */
-
-$background-color:      $color-white;
-
-
-/**
- * Contain.
- */
-
-$contain-percentage:    5.5%;
+.c-content-info ul li  a,
+.c-btn {
+	transition: all .24s ease-in-out;
+}
