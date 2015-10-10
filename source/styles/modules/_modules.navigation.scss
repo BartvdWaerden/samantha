@@ -76,3 +76,31 @@
  * Nav main (wrapper).
  */
 
+.c-nav-main {
+    @include u-rhythm-padding(.75);
+
+    float: right;
+    
+    ul {
+        display: inline-block;
+
+        li {
+            display: inline-block;
+
+            a {
+                display: block;
+                margin-top: 2px;
+                padding: rhythm(.2) rhythm(.75);
+                transition: color .32s ease-in-out;
+
+                &:hover {
+                    color: $color-gray-dark;
+                }
+            }
+        }
+    }
+}
+
+.c-nav-main__item--active {
+    color: $color-white;
+}

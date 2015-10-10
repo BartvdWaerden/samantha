@@ -3,15 +3,14 @@
 
 <main role="main">
     
-    <section class="o-panorama o-panorama--center">
-        <div class="o-panorama__content">
+    <section class="o-panorama u-text-center">
+        <figure class="o-panorama__image js-image-liquid">
+            <img src="assets/images/panorama-samantha-volk.jpg" alt="Samantha Volk - Visual &amp; Interaction Designer">
+        </figure>  
+        <div class="o-panorama__content u-contain-padding u-contain">
             <h1>Op zoek naar een enthausiaste UX Designer? Ik zoek een afstudeerstage!</h1>
             <a class="c-btn" href="#">Kom meer over mij te weten</a>
-        </div>
-
-        <figure class="o-image-liquid-bg js-image-liquid">
-            <img src="assets/images/panorama-samantha-volk.jpg" alt="Samantha Volk - Visual &amp; Interaction Designer">
-        </figure>
+        </div>          
     </section>
 
     <section class="copy">
@@ -93,11 +92,11 @@
                     </div>                                      
 
                     <div class="o-grid-cell u-size1of2--compact u-size1of3--large">
-                        <div class="c-card c-card--6 js-block">
+                        <div class="c-card c-card--inactive c-card--6 js-block">
                             <div class="c-card__image">
                                 <img src="assets/images/card-minor-iuxd.jpg" alt="Minor IUXD">
                             </div>
-                            <div class="c-card__content c-card--inactive">
+                            <div class="c-card__content">
                                 <h3>Minor IUXD</h3>
                                 <span>Binnenkort beschikbaar</span>
                             </div>

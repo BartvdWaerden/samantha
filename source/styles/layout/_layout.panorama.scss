@@ -8,16 +8,26 @@
 }
 
 .o-panorama__content {
-	@include u-trbl(50%, null, null, 50%);
-	
-	position: absolute;
-	transform: translate(-50%, -50%);
-	text-align: center;
+	@include u-rhythm-padding(6, 3.5);
+
+	position: relative;
+	max-width: 750px;
+	margin: 0 auto;
 	color: $color-white;
+
+	@include breakpoint(wide) {
+		max-width: 850px;
+	}
 
 	h1 {
 		@include responsive-text-size('alpha');
 
 		margin-bottom: rhythm(1.5);
 	}
+}
+
+.o-panorama__image {
+	@include u-square(100%);
+
+	position: absolute;
 }

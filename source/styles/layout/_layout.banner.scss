@@ -3,13 +3,36 @@
 \*----------------------------------------------------------------------------*/
 
 .c-banner {
-	@include u-rhythm-padding(1);
     @include u-contain-padding();
+    @include responsive-text-size('pico');
     @include u-z-index('banner');
 
-	display: none;
+
+    display: none;
     position: fixed;
     width: 100%;
-    border-bottom: 2px solid rgba($color-white,.7);
+    transition: transform 200ms linear;
+    box-shadow: inset 0px -2px 0px 0px rgba($color-white, .4);
     background-color: rgba($color-white, .5);
+    color: $color-white;
+    font-family: $sans-font-medium;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+    @include breakpoint(large) {
+        display: block;
+    }
+}
+
+.c-banner--pinned { transform: translateY(0%); }
+
+.c-banner--unpinned { transform: translateY(-100%); }
+
+.c-banner--not-top { 
+    background-color: $color-primary; 
+
+    .c-nav-main__item--active {
+        border: 2px solid rgba($color-white, .4);
+        color: $color-white;
+    }
 }
