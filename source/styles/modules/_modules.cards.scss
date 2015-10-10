@@ -29,18 +29,6 @@
 		vertical-align: top;
 		transition: opacity .32s ease-in-out;
 	}
-
-	&:hover {
-		img {
-			opacity: .1;
-		}
-
-		&:after {
-			opacity: 1;
-			bottom: 50%;
-			margin-bottom: -14px;
-		}
-	}
 }
 
 .c-card__content {
@@ -62,12 +50,13 @@
 	}
 }
 
-.c-card--5,
-.c-card--6 {
+.c-card--5 {
 	@include breakpoint(compact) {
 		margin-bottom: 0;
 	}
 }
+
+.c-card--6 { margin-bottom: 0; }
 
 .c-card--inactive { 
 	.c-card__content { opacity: .5; }

@@ -85,7 +85,7 @@
                                 </a>
                             </div>
                             <div class="c-card__content">
-                                <h3>Mijn eigen huisstijl</h3>
+                                <h3>Design This Huisstijl</h3>
                                 <span>Onderzoek en visueel design</span>
                             </div>
                         </div>

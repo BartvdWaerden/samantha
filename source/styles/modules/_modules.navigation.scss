@@ -54,24 +54,6 @@
 
 // .o-nav__link {}
 
-
-
-
-
-/**
- * Responsive horizontal/stacked (main) navigation.
- *
- * Example HTML:
- * <div class="c-nav-main"
- *   <nav role="navigation" class="c-nav-main__list">
- *     <ul>
- *       <li class="c-nav-main__item"><a href="">link item 1</a></li>
- *       <li class="c-nav-main__item"><a href="">link item 2</a></li>
- *     </ul>
- *   </nav>
- * </div>
- */
-
 /**
  * Nav main (wrapper).
  */
@@ -93,9 +75,7 @@
                 padding: rhythm(.2) rhythm(.75);
                 transition: color .32s ease-in-out;
 
-                &:hover {
-                    color: $color-gray-dark;
-                }
+                &:hover { color: $color-gray-dark; }
             }
         }
     }

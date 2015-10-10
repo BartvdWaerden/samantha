@@ -2,6 +2,30 @@
     #MODULES ANIMATIONS
 \*----------------------------------------------------------------------------*/
 
+.no-touch {
+	.c-btn:hover {
+		border: 2px solid rgba($color-white, 0);
+        background-color: rgba($color-white, .4);
+	}
+
+	.c-card__image:hover {
+		img {
+			opacity: .1;
+		}
+
+		&:after {
+			opacity: 1;
+			bottom: 50%;
+			margin-bottom: -14px;
+		}		
+	}
+
+	.c-content-info ul li a:hover {
+		background-color: rgba($color-white, .7);
+        border: 2px solid rgba($color-white, 0);
+	}
+}
+
 .c-content-info ul li  a,
 .c-btn {
 	transition: all .24s ease-in-out;

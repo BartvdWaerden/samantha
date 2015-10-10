@@ -17,11 +17,7 @@
 
     <script src=" <?php echo rodesk_asset_path('scripts/jquery.js'); ?>"></script>
 
-    <?php if( rodesk_is_mobile() ): ?>
-        <script src=" <?php echo rodesk_asset_path('scripts/mobile.js'); ?>"></script>
-    <?php else: ?>
-        <script src=" <?php echo rodesk_asset_path('scripts/main.js'); ?>"></script>
-    <?php endif; ?>
+    <script src=" <?php echo rodesk_asset_path('scripts/main.js'); ?>"></script>
 
     <?php //include('snippets/analytics.php'); ?>
 

@@ -27,11 +27,6 @@
                 margin: 0 rhythm(.25);
                 border: 2px solid rgba($color-white, .7);
                 border-radius: 50%;
-
-                &:hover {
-                    background-color: rgba($color-white, .7);
-                    border: 2px solid rgba($color-white, 0);
-                }
             }
         }
     }
