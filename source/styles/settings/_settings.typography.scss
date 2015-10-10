@@ -71,11 +71,7 @@ $text-sizing: (
     delta: (
         small: (
             font-size:          1.125rem,
-            // line-height:        1.111
-        ),
-        medium: (
-            font-size:          1.125rem,
-            // line-height:        1.222
+            line-height:        1.7
         )
     ),
     gamma: (
@@ -96,7 +92,12 @@ $text-sizing: (
             line-height:        1.4
         )
     ),
-    // mega: (),
+    mega: (
+        small: (
+            font-size:          1.6470588235rem,
+            line-height:        1.5 
+        )
+    ),
     // giga: (),
     // tera: (),
 );

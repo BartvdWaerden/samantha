@@ -7,10 +7,19 @@
  */
 
 .o-quote {
-    quotes: none;
+    @include u-rhythm-padding(3.5);    
+    @include responsive-text-size('mega');    
 
-    &:before { content: open-quote; }
-    &:after { content: close-quote; }
+    display: block;
+    max-width: 750px;
+    margin: 0 auto;
+    color: $color-primary;
+    text-align: center;
+
+    @include breakpoint(wide) {
+        max-width: 850px;
+    }
+
 }
 
 
@@ -28,15 +37,7 @@
  */
 
 .c-blockquote {
-    margin-top: rhythm(1);
-    margin-bottom: rhythm(1);
-    padding-left: rhythm(.5);
-    border-left: rhythm(.25) solid $color-gray;
-    quotes: none;
-
-    @include breakpoint(medium) {
-        margin-left: rhythm(-.75);
-    }
+    text-align: center;
 
     p {
         // @extend .o-quote;
@@ -49,12 +50,6 @@
 
         &:before,
         &:after { -webkit-font-smoothing: antialiased; }
-    }
-
-    figcaption {
-        color: $color-gray;
-
-        &:before { content: '— '; }
     }
 }
 
@@ -73,5 +68,24 @@
  */
 
 .o-pullquote {
-    @extend .c-blockquote;
+    @include u-rhythm-padding(3.5);
+    @include responsive-text-size('mega');    
+
+    padding: rhythm(3.5) $contain-percentage*2;
+    background-color: $color-primary;
+    color: $color-white;
+    text-align: center;
+
+    @include breakpoint(medium) {
+        padding: rhythm(3.5) $contain-percentage;
+    }
+
+    p {
+        max-width: 750px;
+        margin: 0 auto;
+        
+        @include breakpoint(wide) {
+            max-width: 850px;
+        }
+    }
 }

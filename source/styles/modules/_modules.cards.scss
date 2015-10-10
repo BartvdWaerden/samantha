@@ -37,6 +37,11 @@
 	background-color: $color-gray-dark;
 	color: $color-white;
 
+	h3 {
+		border-bottom: 0;
+		color: $color-white;
+	}
+
 	span {
 		@include responsive-text-size('nano');
 

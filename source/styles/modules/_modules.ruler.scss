@@ -8,10 +8,9 @@
  */
 
 %c-ruler {
-    margin-top: rhythm(1);
-    margin-bottom: -.125em;
     border: 0;
-    border-top: .125em solid $color-black;
+    height: 1px;
+    background-color: rgba($color-primary, .6);
 }
 
 

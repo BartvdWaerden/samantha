@@ -5,6 +5,7 @@
 .o-panorama {
 	position: relative;
 	border-bottom: 10px solid $color-primary;
+	background-color: $color-gray-dark;
 }
 
 .o-panorama__content {
@@ -24,10 +25,23 @@
 
 		margin-bottom: rhythm(1.5);
 	}
+
+	span {
+		@include responsive-text-size('mega');
+
+		display: block;
+		margin-bottom: rhythm(.25);
+		text-transform: uppercase;
+	}
 }
 
 .o-panorama__image {
 	@include u-square(100%);
 
 	position: absolute;
+}
+
+.c-panorama--case h1 { 
+	font-family: $sans-font-medium;
+	text-transform: uppercase; 
 }

@@ -15,7 +15,7 @@
 
     <section class="copy">
         <h1 class="u-is-visually-hidden">Samantha Volk - Visual &amp; Interaction Designer</h1>
-        <div class="o-section" id="portfolio">
+        <div class="o-section--cards" id="portfolio">
             <div class="u-contain u-contain-padding">
     
                 <h2>Portfolio</h2>
