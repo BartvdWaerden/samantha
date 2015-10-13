@@ -45,32 +45,46 @@
                 <h2>Het resultaat</h2>
                 <p class="c-section__intro">Uiteindelijk is dit het resultaat geworden, een moderne website voor Landgoed Rozephoeve. Hieronder zal ik een aantal punten uitlichten uit het ontwerp.</p>
 
-                <div class="test">
-                    <div class="o-grid">
-                        <div class="o-grid-cell u-size1of3--large">
+                <div class="o-grid">
+                    <div class="o-grid-cell u-size1of3--large">
+                        <div class="o-section__content">
                             <h4>Responsive</h4>
                             <p>Omdat de website zowel thuis als op het landgoed beschikbaar moet zijn, was het niet meer dan logisch om hem responsive te ontwerpen. Hierdoor kun je ook op je mobiel of tablet makkelijk de kaart met de daarop belangrijke hotspots bekijken.</p>
                         </div>
-                        <div class="o-grid-cell u-size2of3--large">
-                            <img class="u-pullviewport-right" src="assets/images/case-placeholder.jpg" alt="">
-                        </div>
+                    </div>
+                    <div class="o-grid-cell u-size2of3--large">
+                        <img class="u-pullviewport-right" src="assets/images/case-placeholder.jpg" alt="">
                     </div>
                 </div>
-
-                <div class="test">
-                    <div class="o-grid">
-                        <div class="o-grid-cell u-size2of3--large">
-                            <img class="u-pullviewport-left" src="assets/images/case-placeholder.jpg" alt="">
-                        </div>
-                        <div class="o-grid-cell u-size1of3--large">
-                            <h4>Responsive</h4>
-                            <p>Omdat de website zowel thuis als op het landgoed beschikbaar moet zijn, was het niet meer dan logisch om hem responsive te ontwerpen. Hierdoor kun je ook op je mobiel of tablet makkelijk de kaart met de daarop belangrijke hotspots bekijken.</p>
-                        </div>                        
-                    </div>
-                </div>  
-                              
             </div>
 
+            <div class="o-section">
+                <div class="o-grid">
+                    <div class="o-grid-cell u-size2of3--large">
+                        <img class="u-pullviewport-left" src="assets/images/case-placeholder2.jpg" alt="">
+                    </div>
+                    <div class="o-grid-cell u-size1of3--large">
+                        <div class="o-section__content">
+                            <h4>Responsive</h4>
+                            <p>Omdat de website zowel thuis als op het landgoed beschikbaar moet zijn, was het niet meer dan logisch om hem responsive te ontwerpen. Hierdoor kun je ook op je mobiel of tablet makkelijk de kaart met de daarop belangrijke hotspots bekijken.</p>
+                        </div>
+                    </div>                        
+                </div>
+            </div>
+
+            <div class="o-section">
+                <div class="o-grid">
+                    <div class="o-grid-cell u-size2of3--large">
+                        <img class="u-pullviewport-left" src="assets/images/case-placeholder2.jpg" alt="">
+                    </div>
+                    <div class="o-grid-cell u-size1of3--large">
+                        <div class="o-section__content">
+                            <h4>Video</h4>
+                            <p>Omdat de website zowel thuis als op het landgoed beschikbaar moet zijn, was het niet meer dan logisch om hem responsive te ontwerpen. Hierdoor kun je ook op je mobiel of tablet makkelijk de kaart met de daarop belangrijke hotspots bekijken.</p>
+                        </div>
+                    </div>                        
+                </div>
+            </div>                            
 
         </div>
     </section>

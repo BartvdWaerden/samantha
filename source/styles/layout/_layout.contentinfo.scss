@@ -3,7 +3,9 @@
 \*----------------------------------------------------------------------------*/
 
 .c-content-info {
-    text-align: center;
+    @include u-z-index('base');
+    
+    position: relative;
 
     h2 {
         @include responsive-text-size('beta');

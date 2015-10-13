@@ -18,10 +18,10 @@
      * http://slides.com/heydon/effortless-style/#/22
      */
 
-    > * + *:not(.o-grid), /* 1 */
-    > *:not(.o-grid) + .o-grid { /* 2 */
-        margin-top: rhythm(1);
-    }
+    // > * + *:not(.o-grid), /* 1 */
+    // > *:not(.o-grid) + .o-grid { /* 2 */
+    //     margin-top: rhythm(1);
+    // }
 
 
     /**

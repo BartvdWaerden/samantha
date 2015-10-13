@@ -17,14 +17,13 @@
         <h1 class="u-is-visually-hidden">Samantha Volk - Visual &amp; Interaction Designer</h1>
         <div class="o-section--cards" id="portfolio">
             <div class="u-contain u-contain-padding">
-    
                 <h2>Portfolio</h2>
                 <div class="o-grid o-grid--with-gutter">
                     
                     <div class="o-grid-cell u-size1of2--compact u-size1of3--large">
                         <div class="c-card js-block">
                             <div class="c-card__image">
-                                <a href="landgoed-rozephoeve.php">
+                                <a href="case.php">
                                     <img src="assets/images/card-landgoed-rozephoeve.jpg" alt="Landgoed Rozephoeve">
                                 </a>
                             </div>
@@ -38,7 +37,7 @@
                     <div class="o-grid-cell u-size1of2--compact u-size1of3--large">
                         <div class="c-card js-block">
                             <div class="c-card__image">
-                                <a href="vakantieboulevard.php">
+                                <a href="case.php">
                                     <img src="assets/images/card-vakantieboulevard.jpg" alt="Vakantieboulevard">
                                 </a>
                             </div>
@@ -52,7 +51,7 @@
                     <div class="o-grid-cell u-size1of2--compact u-size1of3--large">
                         <div class="c-card js-block">
                             <div class="c-card__image">
-                                <a href="rodesk.php">
+                                <a href="case.php">
                                     <img src="assets/images/card-rodesk-projectinventarisatie.jpg" alt="Rodesk projectinventarisatie">
                                 </a>
                             </div>
@@ -66,7 +65,7 @@
                     <div class="o-grid-cell u-size1of2--compact u-size1of3--large">
                         <div class="c-card c-card--4 js-block">
                             <div class="c-card__image">
-                                <a href="motion-graphic.php">
+                                <a href="case.php">
                                     <img src="assets/images/card-motion-graphic.jpg" alt="Motion Graphic">
                                 </a>
                             </div>
@@ -80,7 +79,7 @@
                     <div class="o-grid-cell u-size1of2--compact u-size1of3--large">
                         <div class="c-card c-card--5 js-block">
                             <div class="c-card__image">
-                                <a href="huisstijl.php">
+                                <a href="case.php">
                                     <img src="assets/images/card-mijn-eigen-huisstijl.jpg" alt="Mijn eigen huisstijl">
                                 </a>
                             </div>
@@ -115,6 +114,7 @@
                 <p>Ben je net zo geintresseerd in dit onderwerp als ik ben? Kan ik bij jouw bedrijf terecht? Ik kom graag praten over een afstudeer plek!</p>
                 <div class="u-text-center">
                     <a class="c-btn" href="mailto:contact@samanthavolk.nl">Neem contact met mij op</a>
+                    <a class="c-btn" href="mailto:contact@samanthavolk.nl">Download mijn CV</a>
                 </div>
             </div>
         </div>

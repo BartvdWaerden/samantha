@@ -29,14 +29,16 @@
 		}
 	}
 
-	h3 {
+	h3,
+	h4 {
 		display: block;
-		border-bottom: 1px solid rgba($color-primary, .6);
 		margin-bottom: rhythm(.5);		
 		padding-bottom: rhythm(.5);
 		color: $color-gray;
 		font-family: $sans-font-medium;
 	}
+
+	h3 { border-bottom: 1px solid rgba($color-primary, .6); }
 
 	p { 
 		margin-bottom: rhythm(1.25);		
@@ -51,6 +53,8 @@
 
 	.c-section__intro {	
 		@include responsive-text-size('delta');
+
+		margin-bottom: rhythm(3);
 	}
 }
 
@@ -65,15 +69,37 @@
 
 .o-section--secondary { background-color: $color-gray-dark; }
 
-.o-section--footer {
-	@include u-rhythm-padding(4, 1.5);
+.o-section--footer { @include u-rhythm-padding(4, 1.5); }
+
+.o-section--cards { 
+	@include u-rhythm-padding(3.5);
+
+	h2 { 
+		margin: 0 auto rhythm(3.25) auto;
+		text-align: center;
+		text-transform: uppercase;
+
+		&:after {
+			@include u-size(50px, 2px);
+
+			display: block;
+			margin: rhythm(.5) auto 0 auto;
+			background-color: $color-primary;
+			content: '';
+		}
+	}	
 }
 
-.o-section--cards {
-	border-bottom: 0;
-}
+.o-section__content {
+	position: relative;
+	border-top: 2px solid rgba($color-primary, .6);
 
-.test {
-	border: 1px solid red;
-	margin: 0 auto;
+	h4 {
+		@include u-trbl(rhythm(3), null, null, rhythm(-1));
+		
+		position: absolute;
+		transform: rotate(-90deg);
+	}
+
+	p { padding: rhythm(2) 0 0 rhythm(3); }
 }

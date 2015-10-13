@@ -11,7 +11,8 @@
     "imgLiquid": "~0.9.944",
     "headroom.js": "~0.7.0",
     "jQuery-One-Page-Nav": "~3.0.0",
-    "matchHeight": "~0.6.0"
+    "matchHeight": "~0.6.0",
+    "df-visible": "jquery-visible#~1.2.0"
   },
   "overrides": {
     "modernizr": {

@@ -30,3 +30,14 @@
 .c-btn {
 	transition: all .24s ease-in-out;
 }
+
+
+.come-in {
+  transform: translateY(350px);
+  animation: come-in 1.5s ease forwards;
+}
+.come-in:nth-child(odd) { animation-duration: 1.5s; /* So they look staggered */ }
+
+@keyframes come-in {
+  to { transform: translateY(0); }
+}

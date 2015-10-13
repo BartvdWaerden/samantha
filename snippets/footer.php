@@ -1,5 +1,5 @@
     <div role="contentinfo" class="c-content-info o-section o-section--footer o-section--secondary" id="contact">
-        <footer>
+        <footer class="u-text-center">
             <h2>Contact</h2>
             <p>Heeft u vragen? U kunt mij altijd mailen!</p>
             <p>Daarnaast ben ik ook te vinden op LinkedIn.</p>
