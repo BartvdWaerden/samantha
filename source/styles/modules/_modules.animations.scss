@@ -8,6 +8,11 @@
         background-color: rgba($color-white, .4);
 	}
 
+	.c-btn--primary:hover { 
+		background: shade($color-primary, 10%);
+		color: $color-white;
+	}
+
 	.c-card__image:hover {
 		img {
 			opacity: .1;

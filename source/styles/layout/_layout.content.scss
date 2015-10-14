@@ -3,66 +3,74 @@
 \*----------------------------------------------------------------------------*/
 
 .o-section {
-	@include u-rhythm-padding(3.5);
+    @include u-clearfix();
+    @include u-rhythm-padding(3.5);
 
-	background-color: $color-white;
+    background-color: $color-white;
 
-	h2,
-	h3,
-	p { 
-		margin-right: auto; 
-		margin-left: auto; 
-	}
+    h2,
+    h3,
+    p { 
+        margin-right: auto; 
+        margin-left: auto; 
+    }
 
-	h2 { 
-		margin-bottom: rhythm(3.25);
-		text-align: center;
-		text-transform: uppercase;
+    h2 { 
+        margin-bottom: rhythm(3.25);
+        text-align: center;
+        text-transform: uppercase;
 
-		&:after {
-			@include u-size(50px, 2px);
+        &:after {
+            @include u-size(50px, 2px);
 
-			display: block;
-			margin: rhythm(.5) auto 0 auto;
-			background-color: $color-primary;
-			content: '';
-		}
-	}
+            display: block;
+            margin: rhythm(.5) auto 0 auto;
+            background-color: $color-primary;
+            content: '';
+        }
+    }
 
-	h3,
-	h4 {
-		display: block;
-		margin-bottom: rhythm(.5);		
-		padding-bottom: rhythm(.5);
-		color: $color-gray;
-		font-family: $sans-font-medium;
-	}
+    h3,
+    h4 {
+        display: block;
+        margin-bottom: rhythm(.5);      
+        padding-bottom: rhythm(.5);
+        color: $color-gray;
+        font-family: $sans-font-medium;
+    }
 
-	h3 { border-bottom: 1px solid rgba($color-primary, .6); }
+    h3 { border-bottom: 1px solid rgba($color-primary, .6); }
 
-	p { 
-		margin-bottom: rhythm(1.25);		
-		max-width: $text-max-width;
+    p { 
+        margin-bottom: rhythm(1.25);        
+        max-width: $text-max-width;
 
-		&:last-child { margin-bottom: 0; }
-	}
+        &:last-child { margin-bottom: 0; }
+    }
 
-	a { text-align: center; }
+    a { text-align: center; }
 
-	.c-btn { margin-top: rhythm(1.5); }
+    .c-btn { margin-top: rhythm(1.5); }
 
-	.c-section__intro {	
-		@include responsive-text-size('delta');
+    .c-section__intro { 
+        @include responsive-text-size('delta');
 
-		margin-bottom: rhythm(3);
-	}
+        margin-bottom: rhythm(2);
+    }
+
+    hr {
+        display: block;
+        width: 100%;
+        float: left;
+        margin-top: rhythm(1.75);
+    }
 }
 
 .o-section--primary,
 .o-section--secondary { 
-	color: $color-white; 
+    color: $color-white; 
 
-	h2:after { background-color: $color-white; }
+    h2:after { background-color: $color-white; }
 }
 
 .o-section--primary { background-color: $color-primary; }
@@ -72,34 +80,38 @@
 .o-section--footer { @include u-rhythm-padding(4, 1.5); }
 
 .o-section--cards { 
-	@include u-rhythm-padding(3.5);
+    @include u-rhythm-padding(3.5);
 
-	h2 { 
-		margin: 0 auto rhythm(3.25) auto;
-		text-align: center;
-		text-transform: uppercase;
+    h2 { 
+        margin: 0 auto rhythm(3.25) auto;
+        text-align: center;
+        text-transform: uppercase;
 
-		&:after {
-			@include u-size(50px, 2px);
+        &:after {
+            @include u-size(50px, 2px);
 
-			display: block;
-			margin: rhythm(.5) auto 0 auto;
-			background-color: $color-primary;
-			content: '';
-		}
-	}	
+            display: block;
+            margin: rhythm(.5) auto 0 auto;
+            background-color: $color-primary;
+            content: '';
+        }
+    }   
+}
+
+.o-section--bottom {
+    border-top: 2px solid rgba($color-primary, .6);
+
+    h1 {
+        @include responsive-text-size('mega');
+    }
 }
 
 .o-section__content {
-	position: relative;
-	border-top: 2px solid rgba($color-primary, .6);
+    position: relative;
+    padding-top: rhythm(1.5);
+    border-top: 2px solid rgba($color-primary, .6); 
 
-	h4 {
-		@include u-trbl(rhythm(3), null, null, rhythm(-1));
-		
-		position: absolute;
-		transform: rotate(-90deg);
-	}
-
-	p { padding: rhythm(2) 0 0 rhythm(3); }
+    p {
+        max-width: 100%;
+    }
 }

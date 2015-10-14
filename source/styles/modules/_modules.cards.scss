@@ -5,68 +5,68 @@
 .c-card { margin-bottom: rhythm(2.5); }
 
 .c-card__image {
-	position: relative;
-	overflow: hidden;
-	background-color: $color-primary;
+    position: relative;
+    overflow: hidden;
+    background-color: $color-primary;
 
-	&:after {
-		z-index: 1;
-		display: block;
-		position: absolute;
-		bottom: -50px;
-		left: 50%;
-		width: 60px;
-		height: 28px;
-		margin-left: -30px;
-		content: '';
-		opacity: 0;
-		transition: all .32s ease-in;
-		background-position: -192px 0;
-		background-image: img-url('assets.svg');
-	}
+    &:after {
+        z-index: 1;
+        display: block;
+        position: absolute;
+        bottom: -50px;
+        left: 50%;
+        width: 60px;
+        height: 28px;
+        margin-left: -30px;
+        content: '';
+        opacity: 0;
+        transition: all .32s ease-in;
+        background-position: -192px 0;
+        background-image: img-url('assets.svg');
+    }
 
-	img { 
-		vertical-align: top;
-		transition: opacity .32s ease-in-out;
-	}
+    img { 
+        vertical-align: top;
+        transition: opacity .32s ease-in-out;
+    }
 }
 
 .c-card__content {
-	padding: rhythm(.75) rhythm(1) rhythm(.5) rhythm(1);
-	text-align: center;
-	background-color: $color-gray-dark;
-	color: $color-white;
+    padding: rhythm(.75) rhythm(1) rhythm(.5) rhythm(1);
+    text-align: center;
+    background-color: $color-gray-dark;
+    color: $color-white;
 
-	h3 {
-		border-bottom: 0;
-		color: $color-white;
-	}
+    h3 {
+        border-bottom: 0;
+        color: $color-white;
+    }
 
-	span {
-		@include responsive-text-size('nano');
+    span {
+        @include responsive-text-size('nano');
 
-		font-style: oblique;
-	}
+        font-style: oblique;
+    }
 }
 
 .c-card--4 {
-	@include breakpoint(large) {
-		margin-bottom: 0;
-	}
+    @include breakpoint(large) {
+        margin-bottom: 0;
+    }
 }
 
 .c-card--5 {
-	@include breakpoint(compact) {
-		margin-bottom: 0;
-	}
+    @include breakpoint(compact) {
+        margin-bottom: 0;
+    }
 }
 
 .c-card--6 { margin-bottom: 0; }
 
 .c-card--inactive { 
-	.c-card__content { opacity: .5; }
+    .c-card__content { opacity: .5; }
 
-	.c-card__image:hover img { opacity: 1; }
+    .c-card__image:hover img { opacity: 1; }
 
-	.c-card__image:after { display: none; }
+    .c-card__image:after { display: none; }
 }

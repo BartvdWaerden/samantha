@@ -23,7 +23,7 @@
                     <div class="o-grid-cell u-size1of2--compact u-size1of3--large">
                         <div class="c-card js-block">
                             <div class="c-card__image">
-                                <a href="case.php">
+                                <a href="rozephoeve">
                                     <img src="assets/images/card-landgoed-rozephoeve.jpg" alt="Landgoed Rozephoeve">
                                 </a>
                             </div>
@@ -37,7 +37,7 @@
                     <div class="o-grid-cell u-size1of2--compact u-size1of3--large">
                         <div class="c-card js-block">
                             <div class="c-card__image">
-                                <a href="case.php">
+                                <a href="vakantieboulevard-404">
                                     <img src="assets/images/card-vakantieboulevard.jpg" alt="Vakantieboulevard">
                                 </a>
                             </div>
@@ -51,7 +51,7 @@
                     <div class="o-grid-cell u-size1of2--compact u-size1of3--large">
                         <div class="c-card js-block">
                             <div class="c-card__image">
-                                <a href="case.php">
+                                <a href="rodesk-projectinventarisatie">
                                     <img src="assets/images/card-rodesk-projectinventarisatie.jpg" alt="Rodesk projectinventarisatie">
                                 </a>
                             </div>
@@ -65,7 +65,7 @@
                     <div class="o-grid-cell u-size1of2--compact u-size1of3--large">
                         <div class="c-card c-card--4 js-block">
                             <div class="c-card__image">
-                                <a href="case.php">
+                                <a href="motion-graphic">
                                     <img src="assets/images/card-motion-graphic.jpg" alt="Motion Graphic">
                                 </a>
                             </div>
@@ -79,7 +79,7 @@
                     <div class="o-grid-cell u-size1of2--compact u-size1of3--large">
                         <div class="c-card c-card--5 js-block">
                             <div class="c-card__image">
-                                <a href="case.php">
+                                <a href="design-this-huisstijl">
                                     <img src="assets/images/card-mijn-eigen-huisstijl.jpg" alt="Mijn eigen huisstijl">
                                 </a>
                             </div>

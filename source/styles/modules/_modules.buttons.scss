@@ -32,6 +32,7 @@
     border: 2px solid rgba($color-white, .4);
     border-radius: 0; /* 1 */
     color: $color-white;
+    font-family: $sans-font-medium;
     line-height: inherit; /* 2 */
     cursor: pointer;
     text-transform: uppercase;
@@ -71,20 +72,9 @@
  */
 
 .c-btn--primary {
-    background: $color-primary;
-    color: $color-white;
-
-    &:hover { background: shade($color-primary, 10%); }
-
-    &:active { background: shade($color-primary, 10%); }
+    color: $color-primary;
+    border: 2px solid rgba($color-primary, .6);
 }
-
-
-/**
- * Secondary button.
- */
-
-// .c-button--secondary {}
 
 
 

@@ -25,7 +25,7 @@
             </div>
 
             <div class="o-pullquote u-pullviewport">
-                <p>‘’Ik wil mijn grenzen opzoeken en overschrijden door het hele ontwerptraject te volgen van begin tot eind’’</p>
+                <p>‘’Ik wil mijn grenzen opzoeken en overschrijden door het hele ontwerptraject te volgen van begin tot eind’’.</p>
             </div>
 
             <div class="o-section">
@@ -45,50 +45,51 @@
                 <h2>Het resultaat</h2>
                 <p class="c-section__intro">Uiteindelijk is dit het resultaat geworden, een moderne website voor Landgoed Rozephoeve. Hieronder zal ik een aantal punten uitlichten uit het ontwerp.</p>
 
-                <div class="o-grid">
-                    <div class="o-grid-cell u-size1of3--large">
+                <div class="o-grid u-space-leader-xl">
+                    <div class="o-grid-cell u-size1of2--medium u-size1of3--large">
                         <div class="o-section__content">
-                            <h4>Responsive</h4>
-                            <p>Omdat de website zowel thuis als op het landgoed beschikbaar moet zijn, was het niet meer dan logisch om hem responsive te ontwerpen. Hierdoor kun je ook op je mobiel of tablet makkelijk de kaart met de daarop belangrijke hotspots bekijken.</p>
+                            <h4>Responsive Responsive</h4>
+                            <p>Omdat de website zowel thuis als op het landgoed beschikbaar moet zijn, was het niet meer dan logisch om hem responsive te ontwerpen. Hierdoor kun je ook op je mobiel of tablet makkelijk de nieuwsberichten en kaart met de daarop belangrijke hotspots bekijken.</p>
                         </div>
                     </div>
-                    <div class="o-grid-cell u-size2of3--large">
-                        <img class="u-pullviewport-right" src="assets/images/case-placeholder.jpg" alt="">
+                    <div class="o-grid-cell u-size1of2--medium u-size2of3--large">
+                        <img class="u-pullviewport-right" src="assets/images/case-rozephoeve1.jpg" alt="">
                     </div>
                 </div>
             </div>
 
             <div class="o-section">
                 <div class="o-grid">
-                    <div class="o-grid-cell u-size2of3--large">
-                        <img class="u-pullviewport-left" src="assets/images/case-placeholder2.jpg" alt="">
-                    </div>
-                    <div class="o-grid-cell u-size1of3--large">
+                    <div class="o-grid-cell u-size1of2--medium u-size2of3--large">
+                        <img class="u-pullviewport-left" src="assets/images/case-rozephoeve2.jpg" alt="">
+                    </div>                  
+                    <div class="o-grid-cell u-size1of2--medium u-size1of3--large">
                         <div class="o-section__content">
-                            <h4>Responsive</h4>
-                            <p>Omdat de website zowel thuis als op het landgoed beschikbaar moet zijn, was het niet meer dan logisch om hem responsive te ontwerpen. Hierdoor kun je ook op je mobiel of tablet makkelijk de kaart met de daarop belangrijke hotspots bekijken.</p>
+                            <h4>Homepage</h4>
+                            <p>Een uitnodigende binnenkomst voor gebruikers zowel op het landgoed als thuis, met een ingang naar meer informatie over de geschiedenis, de kaart en nieuwsberichten.</p>
                         </div>
-                    </div>                        
+                    </div>                    
                 </div>
             </div>
 
             <div class="o-section">
                 <div class="o-grid">
-                    <div class="o-grid-cell u-size2of3--large">
-                        <img class="u-pullviewport-left" src="assets/images/case-placeholder2.jpg" alt="">
-                    </div>
-                    <div class="o-grid-cell u-size1of3--large">
+                    <div class="o-grid-cell u-size1of2--medium u-size1of3--large">
                         <div class="o-section__content">
-                            <h4>Video</h4>
-                            <p>Omdat de website zowel thuis als op het landgoed beschikbaar moet zijn, was het niet meer dan logisch om hem responsive te ontwerpen. Hierdoor kun je ook op je mobiel of tablet makkelijk de kaart met de daarop belangrijke hotspots bekijken.</p>
+                            <h4>Geschiedenis</h4>
+                            <p>De geschiedenis is vanaf twee beginpunten te lezen. Je kunt de geschiedenis induiken vanaf 1738 voor informatie vanaf vroeger, of vanaf 2015 voor meer recentere informatie. </p>
                         </div>
-                    </div>                        
+                    </div>
+                    <div class="o-grid-cell u-size1of2--medium u-size2of3--large">
+                        <img class="u-pullviewport-right" src="assets/images/case-rozephoeve3.jpg" alt="">
+                    </div>
                 </div>
-            </div>                            
-
+            </div>
+            
         </div>
     </section>
-
 </main>
+
+<?php include('snippets/cta.php'); ?>
 
 <?php include('snippets/footer.php'); ?>
