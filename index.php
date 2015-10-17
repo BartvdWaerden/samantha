@@ -118,7 +118,7 @@
                         <a class="c-btn c-btn--cta" href="mailto:<?php echo convert_email_adr('contact@samanthavolk.nl'); ?>">Neem contact op</a>
                     </div>
                     <div class="o-grid-cell u-size1of2--medium">
-                        <a class="c-btn c-btn--cta" href="#">Download mijn CV</a>
+                        <a class="c-btn c-btn--cta" href="CV_Samantha_Volk.pdf" target="_blank">Download mijn CV</a>
                     </div>
                 </div>
                 </div>

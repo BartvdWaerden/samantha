@@ -37,7 +37,8 @@
         color: $color-gray-dark;
 
         @include breakpoint(large) {
-            border: 2px solid rgba($color-white, .4);
+            // border: 2px solid rgba($color-white, .4);
+            box-shadow: inset 0px 0px 0px 2px rgba($color-white, .4);
             color: $color-white;
         }
     }

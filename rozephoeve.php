@@ -37,8 +37,11 @@
                 <p>Om stijl elementen toe te ontwerpen, heb ik gekeken naar het landgoed zelf. De vorm van de buttons is bijvoorbeeld voortgekomen uit de namen van de huizen welke op het landgoed staan. Deze namen hebben er namelijk een kader omheen staan. Zo zitten er verschillende knipogen in het ontwerp die leiden naar het landgoed.</p>
             </div>
 
-            <figure class="u-pullviewport">
-                <img src="assets/images/full-image-rozephoeve.jpg" alt="image">
+            <figure class="o-figure-image u-pullviewport">
+                <img class="o-figure-image-item" src="assets/images/full-image-rozephoeve.jpg" alt="image">
+                <figcaption>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </figcaption>                
             </figure>            
 
             <div class="o-section">

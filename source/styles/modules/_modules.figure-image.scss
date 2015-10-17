@@ -2,40 +2,7 @@
     #MODULES FIGURE IMAGE
 \*----------------------------------------------------------------------------*/
 
-/**
- * A figure element and its desendent image within a grid (.o-grid) or not
- *
- * Markup example:
- *
- * <figure class="o-figure-image">
- *      <img src="..." class="o-figure-image-item" alt="A single image" />
- * </figure>
- */
-
-// .o-figure-image {}
-
-/**
- * A figure element (and image) within a (multifigure) grid
- *
- * The multifigure uses the .o-grid component to layout the items
- *
- * Markup examples:
- *
- * <figure class="o-figure-image">
- *      <img src="..." class="o-figure-image-item" alt="Just a single image (no grid)" />
- * </figure>
- *
- * <figure class="o-figure-image o-grid o-grid--with-gutter">
- *      <img src="..." class="o-figure-image-item o-grid-cell u-width1of2--compact" alt="First image in row" />
- *      <img src="..." class="o-figure-image-item o-grid-cell u-width1of2--compact" alt="Secondimage in row" />
- * </figure>
- *
- * <figure class="o-figure-image o-grid o-grid--align-center">
- *      <img src="..." class="o-figure-image-item o-grid-cell u-width2of3--compact" alt="A centered image" />
- * </figure>
- *
- */
-
+.o-figure-image { position: relative; }
 
 /**
  * Always occupy available space (even when wider than natural width of image).
@@ -43,79 +10,22 @@
 
 .o-figure-image-item { width: 100%; }
 
-
-/**
- * Align single figure image to center.
- */
-
-.o-figure-image--align-center {
-    text-align: center;
-
-    > * {
-        margin-right: auto;
-        margin-left: auto;
-    }
-
-    .o-figure-image-caption { text-align: left; }
-}
-
-
 /**
  * Figure-image figcaption.
  */
 
 .o-figure-image figcaption {
+    @include u-trbl(null, null, 0, 0);
     @include responsive-text-size('nano'); /* (Re)set font-size (it has been set to `0` by wrapping `.o-grid` element!) */
+    
+    padding: rhythm(.5) $contain-percentage*2;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: rgba($color-primary, .8);
+    color: $color-white;
 
-    margin-top: rhythm(.5);
-    margin-bottom: rhythm(1.5);
-}
-
-
-/**
- * Figureimage gutter/spacing:
- * 1. default (rhythm unit).
- * 2. percentage based.
- *
- * For production out-comment the gutter/spacing method that is not being used!
- */
-
-.o-figure-image.o-grid--with-gutter { /* 1 */
-
-    .o-grid-cell { margin-top: rhythm($grid-gutter-rhythm-unit); } /* Set vertical grid spacing. */
-
-    figcaption {
-        padding-right: rhythm(.5 * $grid-gutter-rhythm-unit); /* Align caption to image(s) by setting half gutter rhythm units. */
-        padding-left: rhythm(.5 * $grid-gutter-rhythm-unit);
-    }
-}
-
-.o-figure-image.o-grid--with-gutter-percentage { /* 2 */
-
-    .o-grid-cell { margin-top: $grid-spacing-percentage; /* Set vertical grid percentages. */ }
-
-    figcaption {
-        padding-right: .5 * $grid-gutter-percentage; /* Align captions image(s) by setting half gutter percentages. */
-        padding-left: .5 * $grid-gutter-percentage;
-    }
-}
-
-
-/**
- * Reset vertical spacing to '0' for both default and percentage based spacing
- * --- from the (default or passed via text) 'breakpoint' and up --- of all
- * elements with `.o-grid-cell` class, that are wrapped in an element with a
- * `.o-grid--break-from<Breakpoint>` class which is not proceded by an element
- * with a `.o-figure-image` class.
- */
-
-*:not(.o-figure-image) {
-
-    + .o-grid--break-from-compact .o-grid-cell {
-        @include breakpoint(compact) { margin-top: 0; }
-    }
-
-    + .o-grid--break-from-nedium .o-grid-cell {
-        @include breakpoint(medium) { margin-top: 0; }
-    }
+    @include breakpoint(medium) {
+        padding: rhythm(.5) $contain-percentage;
+    }   
 }

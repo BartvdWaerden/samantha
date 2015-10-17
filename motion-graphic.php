@@ -16,7 +16,6 @@
             <div class="o-section">
                 <h2>De opdracht</h2>
                 <p class="c-section__intro">In het derde jaar van de opleiding CMD kreeg ik de opdracht om een Motion Graphic te creëeren op basis van een handeling, met het doel de handeling of het proces aan de kijker uit te leggen of duidelijker te maken. Het was aan mij de taak om een handeling te kiezen, een storyboard te maken en onderzoek te doen naar de visuele stijl en techniek waarna ik aan de slag kon gaan met het visualiseren van mijn handeling en het monteren van mijn Motion Graphic.</p>
-
                 <hr>
             </div>
 
@@ -38,8 +37,11 @@
                 <p>Na het doen van onderzoek naar verschillende stijlen, heb ik gekozen om mijn handeling uit te werken in smudge painting style. Ik heb hiervoor gekozen omdat ik mijn handeling met deze stijl zo realistisch mogelijk over kan laten komen. Ik had nog nooit in een smudge painting stijl gewerkt, daarom leek het mij juist een uitdaging! Voordat ik begon aan de Motion Graphic, heb ik eerst alle assets uit het verhaal uitgewerkt.</p>
             </div>            
 
-            <figure class="u-pullviewport">
-                <img src="assets/images/full-image-motion-graphic.jpg" alt="image">
+            <figure class="o-figure-image u-pullviewport">
+                <img class="o-figure-image-item" src="assets/images/full-image-motion-graphic.jpg" alt="image">
+                <figcaption>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </figcaption>                
             </figure>            
 
             <div class="o-section">
@@ -64,11 +66,14 @@
                     <div class="o-grid-cell u-size1of2--medium u-size1of3--large u-pull-right">
                         <div class="o-section__content">
                             <h4>Motion Graphic</h4>
-                            <p>Wil jij weten hoe je een winged eyeliner aanbrengt met een kwast en gel liner? Bekijk dan vooral mijn Motion Graphic! :-)</p>
+                            <p>Wil jij weten hoe je een winged eyeliner aanbrengt met een kwast en gel liner?</p>
+                            <a href="#">Bekijk dan vooral mijn Motion Graphic! :-)</a>
                         </div>
                     </div>
                     <div class="o-grid-cell u-size1of2--medium u-size2of3--large u-pull-left">
-                        <img class="u-pullviewport-left" src="assets/images/case-motion-graphic2.jpg" alt="">
+                        <a href="#" target="_blank">
+                            <img class="u-pullviewport-left" src="assets/images/case-motion-graphic2.jpg" alt="">
+                        </a>
                     </div>                                       
                 </div>
             </div>                       

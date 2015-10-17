@@ -31,8 +31,11 @@
                 <p>Om de inventarisatie leuk te maken, krijgt de gebruiker een badge te wanneer hij of zij halverwege de inventarisatie is. Zo worden de gebruikers gemotiveerd om de inventarisatie af te maken. Daarnaast verdienen ze een badge als ze de inventarisatie hebben afgerond als een soort beloning voor het invullen. Omdat het een badge is die de gebruiker van Rodesk krijgt, was het belangrijk dat deze ook in Rodesk stijl ontworpen werd.</p>
             </div>
 
-            <figure class="u-pullviewport">
-                <img src="assets/images/full-image-projectinventarisatie.jpg" alt="image">
+            <figure class="o-figure-image u-pullviewport">
+                <img class="o-figure-image-item" src="assets/images/full-image-projectinventarisatie.jpg" alt="image">
+                <figcaption>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </figcaption>                
             </figure>            
 
             <div class="o-section">

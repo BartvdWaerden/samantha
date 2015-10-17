@@ -56,9 +56,15 @@
         &:last-child { margin-bottom: 0; }
     }
 
-    a { text-align: center; }
+    a { 
+        text-align: center;
+        color: $color-primary;
+    }
 
-    .c-btn { margin-top: rhythm(1.5); }
+    .c-btn { 
+        margin-top: rhythm(1.5);
+        color: $color-white;
+    }
 
     .c-btn--cta { 
         margin-top: rhythm(1);
@@ -152,4 +158,23 @@
     margin-right: auto;    
     margin-left: auto;
     max-width: $text-max-width;
+}
+
+.c-video {
+    position: relative;
+    display: block;
+    border: 1px solid red;
+
+    &:after {
+        @include u-square(60px);
+        @include u-trbl(50%, null, null, 50%);
+        @include u-z-index('base');
+
+        display: block;
+        position: absolute;
+        margin-top: -30px;
+        margin-left: -30px;
+        background-color: $color-white;
+        content: '';
+    }
 }

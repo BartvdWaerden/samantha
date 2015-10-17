@@ -31,8 +31,11 @@
                 <p>Nadat ik alle elementen van mijn huisstijl had ontworpen en verschillende keuzes had gemaakt, was het tijd om deze elementen samen te voegen in een styleguide. In mijn styleguide heb ik alle elementen, zoals kleur en typografie maar ook mijn visitekaartje en de regels die hierbij horen beschreven. Omdat mijn styleguide zich alleen richt op print, heb ik deze richtlijnen weer verder vertaald naar mijn online portfolio.</p>
             </div>
 
-            <figure class="u-pullviewport">
-                <img src="assets/images/full-image-design-this.jpg" alt="image">
+            <figure class="o-figure-image u-pullviewport">
+                <img class="o-figure-image-item" src="assets/images/full-image-design-this.jpg" alt="image">
+                <figcaption>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </figcaption>                
             </figure>            
 
             <div class="o-section">

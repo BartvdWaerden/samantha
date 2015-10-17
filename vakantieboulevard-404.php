@@ -37,8 +37,11 @@
                 <p>Om stijl elementen toe te voegen, heb ik onderzoek gedaan op internet naar het heelal en planeten. Daarnaast heb ik ook gekeken naar de huidige stijl van de Vakantieboulevard. Na het doen van onderzoek ben ik veel gaan experimenteren met het maken van planeten en de rest van de pagina, hierbij heb ik veel verschillende versies gemaakt. De huidige stijl heb ik verwerkt door de kleuren van de Vakantieboulevard te verwerken in de planeten.</p>
             </div>
 
-            <figure class="u-pullviewport">
-                <img src="assets/images/full-image-404.jpg" alt="image">
+            <figure class="o-figure-image u-pullviewport">
+                <img class="o-figure-image-item" src="assets/images/full-image-404.jpg" alt="image">
+                <figcaption>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </figcaption>
             </figure>            
 
             <div class="o-section">
