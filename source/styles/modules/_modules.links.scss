@@ -2,33 +2,5 @@
     #MODULES LINKS
 \*----------------------------------------------------------------------------*/
 
-.o-link {
+.o-link { color: $color-primary; }
 
-    &:link {
-        position: relative;
-        transition: color .24s ease-out;
-        color: $color-gray;
-        text-decoration: underline;
-    }
-
-    &:visited { color: $color-gray-light; }
-
-    &:hover,
-    &:focus { color: $color-gray-dark; }
-
-    &:active { color: $color-gray-light; }
-}
-
-
-/**
- * No visited link color (browser history).
- */
-
-.o-link--with-no-history {
-
-    &:visited { color: $color-gray; }
-
-    &:hover,
-    &:focus,
-    &:active { color: inherit; }
-}

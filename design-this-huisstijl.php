@@ -32,9 +32,9 @@
             </div>
 
             <figure class="o-figure-image u-pullviewport">
-                <img class="o-figure-image-item" src="assets/images/full-image-design-this.jpg" alt="image">
+                <img class="o-figure-image-item" src="assets/images/full-image-design-this.jpg" alt="Experimenteren visitekaartjes huisstijl">
                 <figcaption>
-                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>Schetsend experimenteren visitekaartjes huisstijl.</p>
                 </figcaption>                
             </figure>            
 
@@ -50,7 +50,7 @@
                         </div>
                     </div>
                     <div class="o-grid-cell u-size1of2--medium u-size2of3--large u-pull-right">
-                        <img class="u-pullviewport-right-desktop" src="assets/images/case-design-this-huisstijl1.jpg" alt="">
+                        <img class="u-pullviewport-right-desktop" src="assets/images/case-design-this-huisstijl1.jpg" alt="Visitekaartjes huisstijl">
                     </div>
                 </div>
             </div>
@@ -64,7 +64,7 @@
                         </div>
                     </div>
                     <div class="o-grid-cell u-size1of2--medium u-size2of3--large u-pull-left">
-                        <img class="u-pullviewport-left-desktop" src="assets/images/case-design-this-huisstijl2.jpg" alt="">
+                        <img class="u-pullviewport-left-desktop" src="assets/images/case-design-this-huisstijl2.jpg" alt="Briefpapier huisstijl">
                     </div>
                 </div>
             </div>

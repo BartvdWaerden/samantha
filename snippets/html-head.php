@@ -46,3 +46,4 @@
 
 </head>
 <body>
+<h1 class="u-is-visually-hidden">Samantha Volk - Visual &amp; Interaction Designer</h1>

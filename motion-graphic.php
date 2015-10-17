@@ -38,9 +38,9 @@
             </div>            
 
             <figure class="o-figure-image u-pullviewport">
-                <img class="o-figure-image-item" src="assets/images/full-image-motion-graphic.jpg" alt="image">
+                <img class="o-figure-image-item" src="assets/images/full-image-motion-graphic.jpg" alt="Storyboard keyframes Motion Graphic">
                 <figcaption>
-                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>Storyboard keyframes Motion Graphic.</p>
                 </figcaption>                
             </figure>            
 
@@ -56,7 +56,7 @@
                         </div>
                     </div>
                     <div class="o-grid-cell u-size1of2--medium u-size2of3--large u-pull-right">
-                        <img class="u-pullviewport-right" src="assets/images/case-motion-graphic1.jpg" alt="">
+                        <img class="u-pullviewport-right" src="assets/images/case-motion-graphic1.jpg" alt="Geïllustreerde hand Motion Graphic">
                     </div>
                 </div>
             </div>
@@ -67,12 +67,12 @@
                         <div class="o-section__content">
                             <h4>Motion Graphic</h4>
                             <p>Wil jij weten hoe je een winged eyeliner aanbrengt met een kwast en gel liner?</p>
-                            <a href="#">Bekijk dan vooral mijn Motion Graphic! :-)</a>
+                            <a class="o-link" href="https://www.youtube.com/watch?v=A8Dktqtqkc0&feature=youtu.be" target="_blank">Bekijk dan vooral mijn Motion Graphic! :-)</a>
                         </div>
                     </div>
                     <div class="o-grid-cell u-size1of2--medium u-size2of3--large u-pull-left">
-                        <a href="#" target="_blank">
-                            <img class="u-pullviewport-left" src="assets/images/case-motion-graphic2.jpg" alt="">
+                        <a href="https://www.youtube.com/watch?v=A8Dktqtqkc0&feature=youtu.be" target="_blank">
+                            <img class="u-pullviewport-left" src="assets/images/case-motion-graphic2.jpg" alt="Bekijk video Motion Graphic">
                         </a>
                     </div>                                       
                 </div>

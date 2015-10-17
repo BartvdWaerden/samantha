@@ -38,9 +38,9 @@
             </div>
 
             <figure class="o-figure-image u-pullviewport">
-                <img class="o-figure-image-item" src="assets/images/full-image-404.jpg" alt="image">
+                <img class="o-figure-image-item" src="assets/images/full-image-404.jpg" alt="Brainstorm Vakantieboulevard 404 pagina">
                 <figcaption>
-                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>Brainstorm Vakantieboulevard 404 pagina.</p>
                 </figcaption>
             </figure>            
 
@@ -56,7 +56,7 @@
                         </div>
                     </div>
                     <div class="o-grid-cell u-size1of2--medium u-size2of3--large u-pull-right">
-                        <img class="u-pullviewport-right-desktop" src="assets/images/case-vakantieboulevard1.jpg" alt="">
+                        <img class="u-pullviewport-right-desktop" src="assets/images/case-vakantieboulevard1.jpg" alt="Mobile ontwerp 404 Vakantieboulevard">
                     </div>
                 </div>
             </div>
@@ -70,7 +70,7 @@
                         </div>
                     </div>
                     <div class="o-grid-cell u-size1of2--medium u-size2of3--large u-pull-left">
-                        <img class="u-pullviewport-left" src="assets/images/case-vakantieboulevard2.jpg" alt="">
+                        <img class="u-pullviewport-left" src="assets/images/case-vakantieboulevard2.jpg" alt="Desktop ontwerp 404 Vakantieboulevard">
                     </div>                              
                 </div>
             </div>                       

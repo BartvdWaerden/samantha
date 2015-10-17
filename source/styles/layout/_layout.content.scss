@@ -56,15 +56,9 @@
         &:last-child { margin-bottom: 0; }
     }
 
-    a { 
-        text-align: center;
-        color: $color-primary;
-    }
+    a { text-align: center; }
 
-    .c-btn { 
-        margin-top: rhythm(1.5);
-        color: $color-white;
-    }
+    .c-btn { margin-top: rhythm(1.5); }
 
     .c-btn--cta { 
         margin-top: rhythm(1);

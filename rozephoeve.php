@@ -2,7 +2,6 @@
 <?php include('snippets/header.php'); ?>
 
 <main role="main">
-    
     <section class="o-panorama c-panorama--case u-text-center">
         <div class="o-panorama__content u-contain-padding u-contain">
             <span>Case</span>
@@ -38,9 +37,9 @@
             </div>
 
             <figure class="o-figure-image u-pullviewport">
-                <img class="o-figure-image-item" src="assets/images/full-image-rozephoeve.jpg" alt="image">
+                <img class="o-figure-image-item" src="assets/images/full-image-rozephoeve.jpg" alt="Wireframe Landgoed Rozephoeve">
                 <figcaption>
-                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>Wireframe homepage Landgoed Rozephoeve.</p>
                 </figcaption>                
             </figure>            
 
@@ -51,12 +50,12 @@
                 <div class="o-grid">
                     <div class="o-grid-cell u-size1of2--medium u-size1of3--large u-pull-left">
                         <div class="o-section__content">
-                            <h4>Responsive Responsive</h4>
+                            <h4>Responsive</h4>
                             <p>Omdat de website zowel thuis als op het landgoed beschikbaar moet zijn, was het niet meer dan logisch om hem responsive te ontwerpen. Hierdoor kun je ook op je mobiel of tablet makkelijk de nieuwsberichten en kaart met de daarop belangrijke hotspots bekijken.</p>
                         </div>
                     </div>
                     <div class="o-grid-cell u-size1of2--medium u-size2of3--large u-pull-right">
-                        <img class="u-pullviewport-right" src="assets/images/case-rozephoeve1.jpg" alt="">
+                        <img class="u-pullviewport-right" src="assets/images/case-rozephoeve1.jpg" alt="Nieuwspagina responsive Landgoed Rozephoeve">
                     </div>
                 </div>
             </div>
@@ -70,7 +69,7 @@
                         </div>
                     </div>
                     <div class="o-grid-cell u-size1of2--medium u-size2of3--large u-pull-left">
-                        <img class="u-pullviewport-left" src="assets/images/case-rozephoeve2.jpg" alt="">
+                        <img class="u-pullviewport-left" src="assets/images/case-rozephoeve2.jpg" alt="Homepage Landgoed Rozephoeve">
                     </div>
                 </div>
             </div>
@@ -84,7 +83,7 @@
                         </div>
                     </div>
                     <div class="o-grid-cell u-size1of2--medium u-size2of3--large u-pull-right">
-                        <img class="u-pullviewport-right" src="assets/images/case-rozephoeve3.jpg" alt="">
+                        <img class="u-pullviewport-right" src="assets/images/case-rozephoeve3.jpg" alt="Geschiedenis pagina Landgoed Rozephoeve">
                     </div>
                 </div>
             </div>

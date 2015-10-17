@@ -14,7 +14,6 @@
     </section>
 
     <section class="copy">
-        <h1 class="u-is-visually-hidden">Samantha Volk - Visual &amp; Interaction Designer</h1>
         <div class="o-section--cards" id="portfolio">
             <div class="u-contain u-contain-padding">
                 <h2>Portfolio</h2>
@@ -52,7 +51,7 @@
                         <div class="c-card js-block">
                             <div class="c-card__image">
                                 <a href="rodesk-projectinventarisatie">
-                                    <img src="assets/images/card-rodesk-projectinventarisatie.jpg" alt="Rodesk projectinventarisatie">
+                                    <img src="assets/images/card-rodesk-projectinventarisatie.jpg" alt="Rodesk Projectinventarisatie">
                                 </a>
                             </div>
                             <div class="c-card__content">

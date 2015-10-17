@@ -32,9 +32,9 @@
             </div>
 
             <figure class="o-figure-image u-pullviewport">
-                <img class="o-figure-image-item" src="assets/images/full-image-projectinventarisatie.jpg" alt="image">
+                <img class="o-figure-image-item" src="assets/images/full-image-projectinventarisatie.jpg" alt="Schets badges Rodesk Projectinventarisatie">
                 <figcaption>
-                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>Schets badges Rodesk Projectinventarisatie.</p>
                 </figcaption>                
             </figure>            
 
@@ -50,7 +50,7 @@
                         </div>
                     </div>
                     <div class="o-grid-cell u-size1of2--medium u-size2of3--large u-pull-right">
-                        <img class="u-pullviewport-right" src="assets/images/case-projectinventarisatie1.jpg" alt="">
+                        <img class="u-pullviewport-right" src="assets/images/case-projectinventarisatie1.jpg" alt="Welkomstpagina Rodesk Projectinventarisatie">
                     </div>
                 </div>
             </div>
@@ -59,12 +59,12 @@
                 <div class="o-grid">                
                     <div class="o-grid-cell u-size1of2--medium u-size1of3--large u-pull-right">
                         <div class="o-section__content">
-                            <h4>Badge</h4>
+                            <h4>Badges</h4>
                             <p>De badges zijn ontworpen voor de gebruiker die halverwege de inventarisatie is en een badge voor het afronden van de inventarisatie.</p>
                         </div>
                     </div>
                     <div class="o-grid-cell u-size1of2--medium u-size2of3--large u-pull-left">
-                        <img class="u-pullviewport-left" src="assets/images/case-projectinventarisatie2.jpg" alt="">
+                        <img class="u-pullviewport-left" src="assets/images/case-projectinventarisatie2.jpg" alt="Verdiende badges Rodesk Projectinventarisatie">
                     </div>                                        
                 </div>
             </div>
@@ -74,11 +74,11 @@
                     <div class="o-grid-cell u-size1of2--medium u-size1of3--large u-pull-left">
                         <div class="o-section__content">
                             <h4>Overzicht</h4>
-                            <p>Overzicht voor de gebruiker om te zien hoe ver hij of zij is in de inventarisatie, en hoeveel categorien er nog ingevuld moeten worden. Deze voortgangsbalk staat fixed aan de menubalk vast om de gebruiker altijd overzicht te bieden.</p>
+                            <p>Overzicht voor de gebruiker om te zien hoe ver hij of zij is in de inventarisatie, en hoeveel categoriën er nog ingevuld moeten worden. Deze voortgangsbalk staat fixed aan de menubalk vast om de gebruiker altijd overzicht te bieden.</p>
                         </div>
                     </div>
                     <div class="o-grid-cell u-size1of2--medium u-size2of3--large u-pull-right">
-                        <img class="u-pullviewport-right" src="assets/images/case-projectinventarisatie3.jpg" alt="">
+                        <img class="u-pullviewport-right" src="assets/images/case-projectinventarisatie3.jpg" alt="Voortgang Rodesk Projectinventarisatie">
                     </div>
                 </div>
             </div>                                  
