@@ -39,37 +39,37 @@
             </div>            
 
             <figure class="u-pullviewport">
-                <img src="assets/images/panorama-samantha-volk.jpg" alt="image">
+                <img src="assets/images/full-image-motion-graphic.jpg" alt="image">
             </figure>            
 
             <div class="o-section">
                 <h2>Het resultaat</h2>
                 <p class="c-section__intro">Uiteindelijk is dit het resultaat geworden, een realistische motion graphic. Ik heb gekozen voor de stop motion techniek omdat ik vind omdat ik vind dat deze techniek goed samen gaat met de smudge painting stijl.</p>
 
-                <div class="o-grid u-space-leader-xl">
-                    <div class="o-grid-cell u-size1of2--medium u-size1of3--large">
+                <div class="o-grid">
+                    <div class="o-grid-cell u-size1of2--medium u-size1of3--large u-pull-left">
                         <div class="o-section__content">
                             <h4>Assets</h4>
                             <p>Om de Motion Graphic zo duidelijk mogelijk te maken heb ik de handen uitgewerkt in vier verschillende standen, zodat de kijker kan zien hoe hij of zij de kwast beet moet houden.</p>
                         </div>
                     </div>
-                    <div class="o-grid-cell u-size1of2--medium u-size2of3--large">
+                    <div class="o-grid-cell u-size1of2--medium u-size2of3--large u-pull-right">
                         <img class="u-pullviewport-right" src="assets/images/case-motion-graphic1.jpg" alt="">
                     </div>
                 </div>
             </div>
 
             <div class="o-section">
-                <div class="o-grid">
-                    <div class="o-grid-cell u-size1of2--medium u-size2of3--large">
-                        <img class="u-pullviewport-left" src="assets/images/case-motion-graphic2.jpg" alt="">
-                    </div>                  
-                    <div class="o-grid-cell u-size1of2--medium u-size1of3--large">
+                <div class="o-grid">                  
+                    <div class="o-grid-cell u-size1of2--medium u-size1of3--large u-pull-right">
                         <div class="o-section__content">
                             <h4>Motion Graphic</h4>
                             <p>Wil jij weten hoe je een winged eyeliner aanbrengt met een kwast en gel liner? Bekijk dan vooral mijn Motion Graphic! :-)</p>
                         </div>
-                    </div>                    
+                    </div>
+                    <div class="o-grid-cell u-size1of2--medium u-size2of3--large u-pull-left">
+                        <img class="u-pullviewport-left" src="assets/images/case-motion-graphic2.jpg" alt="">
+                    </div>                                       
                 </div>
             </div>                       
 

@@ -4,9 +4,13 @@
 
 .o-section {
     @include u-clearfix();
-    @include u-rhythm-padding(3.5);
+    @include u-rhythm-padding(2);
 
     background-color: $color-white;
+
+    @include breakpoint(medium) {
+        @include u-rhythm-padding(3.5);        
+    }
 
     h2,
     h3,
@@ -16,9 +20,13 @@
     }
 
     h2 { 
-        margin-bottom: rhythm(3.25);
+        margin-bottom: rhythm(2);
         text-align: center;
         text-transform: uppercase;
+
+        @include breakpoint(medium) {
+            margin-bottom: rhythm(3.25);
+        }
 
         &:after {
             @include u-size(50px, 2px);
@@ -64,6 +72,14 @@
         float: left;
         margin-top: rhythm(1.75);
     }
+
+    img {
+        margin-top: rhythm(1.5);
+
+        @include breakpoint(medium) {
+            margin-top: 0;
+        }
+    }
 }
 
 .o-section--primary,
@@ -80,7 +96,11 @@
 .o-section--footer { @include u-rhythm-padding(4, 1.5); }
 
 .o-section--cards { 
-    @include u-rhythm-padding(3.5);
+    @include u-rhythm-padding(2);
+
+    @include breakpoint(medium) {
+        @include u-rhythm-padding(3.5);
+    }
 
     h2 { 
         margin: 0 auto rhythm(3.25) auto;

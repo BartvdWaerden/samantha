@@ -3,46 +3,33 @@
 \*----------------------------------------------------------------------------*/
 
 .no-touch {
-	.c-btn:hover {
-		border: 2px solid rgba($color-white, 0);
-        background-color: rgba($color-white, .4);
-	}
-
-	.c-btn--primary:hover { 
-		background: shade($color-primary, 10%);
-		color: $color-white;
-	}
-
-	.c-card__image:hover {
-		img {
-			opacity: .1;
-		}
-
-		&:after {
-			opacity: 1;
-			bottom: 50%;
-			margin-bottom: -14px;
-		}		
-	}
-
-	.c-content-info ul li a:hover {
-		background-color: rgba($color-white, .7);
+    .c-btn:hover {
         border: 2px solid rgba($color-white, 0);
-	}
+        background-color: rgba($color-white, .4);
+    }
+
+    .c-btn--primary:hover { 
+        background: shade($color-primary, 10%);
+        color: $color-white;
+    }
+
+    .c-card__image:hover {
+        img {
+            opacity: .1;
+        }
+
+        &:after {
+            opacity: 1;
+            bottom: 50%;
+            margin-bottom: -14px;
+        }       
+    }
+
+    .c-content-info ul li a:hover {
+        background-color: rgba($color-white, .7);
+        border: 2px solid rgba($color-white, 0);
+    }
 }
 
 .c-content-info ul li  a,
-.c-btn {
-	transition: all .24s ease-in-out;
-}
-
-
-.come-in {
-  transform: translateY(350px);
-  animation: come-in 1.5s ease forwards;
-}
-.come-in:nth-child(odd) { animation-duration: 1.5s; /* So they look staggered */ }
-
-@keyframes come-in {
-  to { transform: translateY(0); }
-}
+.c-btn { transition: all .24s ease-in-out; }

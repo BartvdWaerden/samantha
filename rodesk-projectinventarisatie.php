@@ -32,7 +32,7 @@
             </div>
 
             <figure class="u-pullviewport">
-                <img src="assets/images/panorama-samantha-volk.jpg" alt="image">
+                <img src="assets/images/full-image-projectinventarisatie.jpg" alt="image">
             </figure>            
 
             <div class="o-section">
@@ -40,41 +40,41 @@
                 <p class="c-section__intro">Uiteindelijk is dit het resultaat geworden, een responsive website voor de projectinventarisatie van Rodesk. De inventarisatie is persoonlijk en de gebruiker krijgt badges voor het invullen. Op deze manier wordt er van de inventarisatie die toch wel lastig en een beetje saai is iets leuks gemaakt.</p>
 
                 <div class="o-grid u-space-leader-xl">
-                    <div class="o-grid-cell u-size1of2--medium u-size1of3--large">
+                    <div class="o-grid-cell u-size1of2--medium u-size1of3--large u-pull-left">
                         <div class="o-section__content">
                             <h4>Persoonlijk</h4>
                             <p>Om de projectinventarisatie persoonlijk te maken krijgt iedere gebruiker een persoonlijke login zodat zij de vragen kunnen beantwoorden.</p>
                         </div>
                     </div>
-                    <div class="o-grid-cell u-size1of2--medium u-size2of3--large">
+                    <div class="o-grid-cell u-size1of2--medium u-size2of3--large u-pull-right">
                         <img class="u-pullviewport-right" src="assets/images/case-projectinventarisatie1.jpg" alt="">
                     </div>
                 </div>
             </div>
 
             <div class="o-section">
-                <div class="o-grid">
-                    <div class="o-grid-cell u-size1of2--medium u-size2of3--large">
-                        <img class="u-pullviewport-left" src="assets/images/case-projectinventarisatie2.jpg" alt="">
-                    </div>                  
-                    <div class="o-grid-cell u-size1of2--medium u-size1of3--large">
+                <div class="o-grid">                
+                    <div class="o-grid-cell u-size1of2--medium u-size1of3--large u-pull-right">
                         <div class="o-section__content">
                             <h4>Badge</h4>
                             <p>De badges zijn ontworpen voor de gebruiker die halverwege de inventarisatie is en een badge voor het afronden van de inventarisatie.</p>
                         </div>
-                    </div>                    
+                    </div>
+                    <div class="o-grid-cell u-size1of2--medium u-size2of3--large u-pull-left">
+                        <img class="u-pullviewport-left" src="assets/images/case-projectinventarisatie2.jpg" alt="">
+                    </div>                                        
                 </div>
             </div>
 
             <div class="o-section">
                 <div class="o-grid">
-                    <div class="o-grid-cell u-size1of2--medium u-size1of3--large">
+                    <div class="o-grid-cell u-size1of2--medium u-size1of3--large u-pull-left">
                         <div class="o-section__content">
                             <h4>Overzicht</h4>
                             <p>Overzicht voor de gebruiker om te zien hoe ver hij of zij is in de inventarisatie, en hoeveel categorien er nog ingevuld moeten worden. Deze voortgangsbalk staat fixed aan de menubalk vast om de gebruiker altijd overzicht te bieden.</p>
                         </div>
                     </div>
-                    <div class="o-grid-cell u-size1of2--medium u-size2of3--large">
+                    <div class="o-grid-cell u-size1of2--medium u-size2of3--large u-pull-right">
                         <img class="u-pullviewport-right" src="assets/images/case-projectinventarisatie3.jpg" alt="">
                     </div>
                 </div>

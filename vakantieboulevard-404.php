@@ -38,37 +38,37 @@
             </div>
 
             <figure class="u-pullviewport">
-                <img src="assets/images/panorama-samantha-volk.jpg" alt="image">
+                <img src="assets/images/full-image-404.jpg" alt="image">
             </figure>            
 
             <div class="o-section">
                 <h2>Het resultaat</h2>
                 <p class="c-section__intro">Uiteindelijk is dit het resultaat geworden, een responsive 404 pagina in de stijl van de Vakantieboulevard. Gebruikers kunnen herkennen dat zij zich nog op de website bevinden, maar voor nu perongeluk op planeet 404 zijn beland.</p>
 
-                <div class="o-grid u-space-leader-xl">
-                    <div class="o-grid-cell u-size1of2--medium u-size1of3--large">
+                <div class="o-grid">
+                    <div class="o-grid-cell u-size1of2--medium u-size1of3--large u-pull-left">
                         <div class="o-section__content">
                             <h4>Responsive</h4>
                             <p>Omdat de website ook beschikbaar is op mobiel, was het belangrijk dat de pagina niet te lang werd. Op deze manier ziet de gebruiker alle informatie in een oogopslag, hoeft de gebruiker niet te scrollen en zoeken naar een oplossing. Hierdoor kan de gebruiker de interacties zien die hij of zij aan kan klikken om terug te gaan naar de gewenste pagina.</p>
                         </div>
                     </div>
-                    <div class="o-grid-cell u-size1of2--medium u-size2of3--large">
-                        <img class="u-pullviewport-right" src="assets/images/case-vakantieboulevard1.jpg" alt="">
+                    <div class="o-grid-cell u-size1of2--medium u-size2of3--large u-pull-right">
+                        <img class="u-pullviewport-right-desktop" src="assets/images/case-vakantieboulevard1.jpg" alt="">
                     </div>
                 </div>
             </div>
 
             <div class="o-section">
-                <div class="o-grid">
-                    <div class="o-grid-cell u-size1of2--medium u-size2of3--large">
-                        <img class="u-pullviewport-left" src="assets/images/case-vakantieboulevard2.jpg" alt="">
-                    </div>                  
-                    <div class="o-grid-cell u-size1of2--medium u-size1of3--large">
+                <div class="o-grid">                  
+                    <div class="o-grid-cell u-size1of2--medium u-size1of3--large u-pull-right">
                         <div class="o-section__content">
                             <h4>404</h4>
                             <p>Een overzichtelijke 404 pagina met alle mogelijke interacties in het zicht. De gebruiker kan de Vakantieboulevard herkennen aan het kleurgebruik en de menu balk bovenaan de pagina. Ook zal de gebruiker niet snel schrikken en weg gaan door deze herkenning, en doordat de pagina verpakt is in een pakkend concept.</p>
                         </div>
-                    </div>                    
+                    </div>
+                    <div class="o-grid-cell u-size1of2--medium u-size2of3--large u-pull-left">
+                        <img class="u-pullviewport-left" src="assets/images/case-vakantieboulevard2.jpg" alt="">
+                    </div>                              
                 </div>
             </div>                       
 

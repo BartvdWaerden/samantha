@@ -24,14 +24,28 @@
     margin-left: 22%;
 
     @include breakpoint(medium) {
-        margin-left: 11%;
+        margin-left: 12.5%;
     }	
+}
+
+.u-pullviewport-right-desktop {
+
+    @include breakpoint(medium) {
+        margin-left: 12.5%;
+    }   
 }
 
 .u-pullviewport-left {
     margin-left: -22%;
 
     @include breakpoint(medium) {
-        margin-left: -11%;
+        margin-left: -12.5%;
     }	
+}
+
+.u-pullviewport-left-desktop {
+
+    @include breakpoint(medium) {
+        margin-left: -12.5%;
+    }   
 }

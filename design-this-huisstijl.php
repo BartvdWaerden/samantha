@@ -32,43 +32,39 @@
             </div>
 
             <figure class="u-pullviewport">
-                <img src="assets/images/panorama-samantha-volk.jpg" alt="image">
+                <img src="assets/images/full-image-design-this.jpg" alt="image">
             </figure>            
 
             <div class="o-section">
                 <h2>Het resultaat</h2>
                 <p class="c-section__intro">Uiteindelijk heb ik een stytleguide ontworpen waarin ik al mijn ontworpen huisstijlelementen in heb verwerkt. De elementen worden ondersteund door middel van een aantal regels waar je je aan moet houden en voorbeelden van hoe je het element niet mag gebruiken. Hieronder een aantal elementen uit mijn styleguide.</p>
 
-                <div class="o-grid u-space-leader-xl">
-                    <div class="o-grid-cell u-size1of2--medium u-size1of3--large">
+                <div class="o-grid">
+                    <div class="o-grid-cell u-size1of2--medium u-size1of3--large u-pull-left">
                         <div class="o-section__content">
                             <h4>Visitekaartjes</h4>
                             <p>Het visitekaartje is clean ontworpen, zodat de informatie die erop staat eruit springt. Op de achterkant van het visitekaartje komt het logo in lijnen terug in de kleuren van de ontworpen huisstijl.</p>
                         </div>
                     </div>
-                    <div class="o-grid-cell u-size1of2--medium u-size2of3--large">
-                        <img class="u-pullviewport-right" src="assets/images/case-design-this-huisstijl1.jpg" alt="">
+                    <div class="o-grid-cell u-size1of2--medium u-size2of3--large u-pull-right">
+                        <img class="u-pullviewport-right-desktop" src="assets/images/case-design-this-huisstijl1.jpg" alt="">
                     </div>
                 </div>
             </div>
 
             <div class="o-section">
-                <div class="o-grid">
-                    <div class="o-grid-cell u-size1of2--medium u-size2of3--large">
-                        <img class="u-pullviewport-left" src="assets/images/case-design-this-huisstijl2.jpg" alt="">
-                    </div>                  
-                    <div class="o-grid-cell u-size1of2--medium u-size1of3--large">
+                <div class="o-grid">                  
+                    <div class="o-grid-cell u-size1of2--medium u-size1of3--large u-pull-right">
                         <div class="o-section__content">
                             <h4>Briefpapier</h4>
                             <p>Ook het briefpapier is clean ontworpen, zodat de content op de brief eruit springt. Dit is immers de belangrijkste informatie. Om de brief spannender te maken komt op de achterkant van het briefpapier ook het logo terug net als het visitekaartje. Dit heb ik tevens gedaan zodat de huisstijl consistent blijft.</p>
                         </div>
-                    </div>                    
+                    </div>
+                    <div class="o-grid-cell u-size1of2--medium u-size2of3--large u-pull-left">
+                        <img class="u-pullviewport-left-desktop" src="assets/images/case-design-this-huisstijl2.jpg" alt="">
+                    </div>
                 </div>
             </div>
-
-            <figure class="u-pullviewport">
-                <img src="assets/images/panorama-samantha-volk.jpg" alt="image">
-            </figure>                                              
 
         </div>
     </section>
