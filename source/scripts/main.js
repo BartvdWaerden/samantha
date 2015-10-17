@@ -59,4 +59,43 @@
         $('.c-card__content').matchHeight();
     });
 
+    /*------------------------------------------------------------------------*/
+    /*  Main Menu
+    /*------------------------------------------------------------------------*/
+
+    $('.c-nav-main-toggle').on('click', function(e) {
+        $('.c-nav-main__list').toggleClass('is-visible');
+
+        e.stopPropagation();
+    });
+
+    $(".c-nav-main__item a").click(function(){
+        $(".c-nav-main__list").removeClass("is-visible");
+    });
+
+    $("body").click(function(){
+        $(".c-nav-main__list").removeClass("is-visible");
+    });
+
+
+    /*------------------------------------------------------------------------*/
+    /*  Make link of whole element block
+    /*------------------------------------------------------------------------*/
+
+    $(".js-block").click(function(){
+        if($(this).find("a").length){
+            window.location.href = $(this).find("a:first").attr("href");
+        }
+    });
+
+    /*------------------------------------------------------------------------*/
+    /*  Scroll to
+    /*------------------------------------------------------------------------*/
+
+    $("#js-scroll").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#about").offset().top
+    }, 750);
+});
+
 })(jQuery); // Fully reference jQuery after this point.

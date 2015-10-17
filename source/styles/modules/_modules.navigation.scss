@@ -2,72 +2,27 @@
     #MODULES NAVIGATION
 \*----------------------------------------------------------------------------*/
 
-/**
- * Simple navigation.
- * When used on an `ol` or `ul`, it throws the list into horizontal mode.
- *
- * Example HTML:
- * <nav role="navigation">
- *   <ul class="o-nav">
- *     <li class="o-nav__item"><a href="">link item 1</a></li>
- *     <li class="o-nav__item"><a href="">link item 2</a></li>
- *   </ul>
- * </nav>
- */
-
-.o-nav {
-    list-style: none;
-
-    > li {
-        &,
-        > a {
-            display: inline-block;
-        }
-    }
-}
-
-/**
- * Simple stacked (vertical) navigation.
- *
- * Example HTML:
- * <nav role="navigation">
- *   <ul class="o-nav o-nav--stacked">
- *     <li class="o-nav__item"><a href="">link item 1</a></li>
- *     <li class="o-nav__item"><a href="">link item 2</a></li>
- *     <li class="o-nav__item"><a href="">link item 3</a></li>
- *   </ul>
- * </nav>
- */
-
-.o-nav--stacked {
-
-    > li {
-        display: list-item;
-
-        > a {
-            display: block;
-        }
-    }
-}
-
-// .o-nav__item {}
-
-// .o-nav__link {}
-
-/**
- * Nav main (wrapper).
- */
-
 .c-nav-main {
     @include u-rhythm-padding(.75);
 
     float: right;
     
     ul {
-        display: inline-block;
+        display: block;
+        text-align: center;
+
+        @include breakpoint(large) {
+            display: inline-block;
+        }
+
 
         li {
-            display: inline-block;
+            display: block;
+
+            @include breakpoint(large) {
+                display: inline-block;
+                width: auto;
+            }
 
             a {
                 display: block;
@@ -81,6 +36,72 @@
     }
 }
 
-.c-nav-main__item--active {
-    color: $color-white;
+.c-nav-main__list {
+    @include u-rhythm-padding(1.5);
+
+    display: none;
+    position: absolute;
+    top: 54px;
+    left: 0;
+    width: 100%;
+    background-color: $color-primary;
+    box-shadow: inset 0px -2px 0px 0px rgba($color-white, .4);
+
+    @include breakpoint(large) {
+        @include u-rhythm-padding(0);
+
+        display: block;
+        position: relative;
+        top: auto;
+        left: auto;
+        background-color: transparent;
+        box-shadow: none;
+    }
+
+}
+
+.is-visible { display: block; }
+
+.c-nav-main__item--active { color: $color-white; }
+
+.c-nav-main-toggle {
+    @include u-square(54px);
+
+    display: block;
+    position: relative;
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+
+    @include breakpoint(large) {
+        display: none;
+    }
+
+    span {
+        @include u-size(24px, 2px);
+
+        display: block;
+        position: absolute;
+        right: 50%;
+        margin-right: -12px;
+        background-color: $color-white;
+
+        &:before,
+        &:after {
+            @include u-size(24px, 2px);
+            position: absolute;
+            content: '';
+            background-color: $color-white;
+        }
+
+        &:before {
+            top: -6px;
+            right: 0;
+        }
+
+        &:after {
+            bottom: -6px;
+            right: 0;
+        }
+    } 
 }

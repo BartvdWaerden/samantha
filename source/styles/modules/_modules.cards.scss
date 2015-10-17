@@ -28,6 +28,7 @@
     img { 
         vertical-align: top;
         transition: opacity .32s ease-in-out;
+        -webkit-backface-visibility: hidden;
     }
 }
 

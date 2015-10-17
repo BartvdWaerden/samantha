@@ -28,21 +28,17 @@
     <link rel="dns-prefetch" href="//ajax.googleapis.com">
     <link rel="dns-prefetch" href="//www.google-analytics.com">
 
-    <?php if( rodesk_is_mobile() ): ?>
-        <link rel="stylesheet" href=" <?php echo rodesk_asset_path('styles/style-mobile.css' ); ?>">
-    <?php else: ?>
-        <!--[if (gt IE 8)]><!-->
-        <link rel="stylesheet" href="<?php echo rodesk_asset_path('styles/style.css' ); ?>">
-        <!---<![endif]-->
+    <!--[if (gt IE 8)]><!-->
+    <link rel="stylesheet" href="<?php echo rodesk_asset_path('styles/style.css' ); ?>">
+    <!---<![endif]-->
 
-        <!--[if (lt IE 9)]>
-        <link rel="stylesheet" href="<?php echo rodesk_asset_path('styles/style-ie.css' ); ?>">
-        <![endif]-->
+    <!--[if (lt IE 9)]>
+    <link rel="stylesheet" href="<?php echo rodesk_asset_path('styles/style-ie.css' ); ?>">
+    <![endif]-->
 
-        <link rel="stylesheet" href=" <?php echo rodesk_asset_path('styles/print.css' ); ?>" media="print">
+    <link rel="stylesheet" href=" <?php echo rodesk_asset_path('styles/print.css' ); ?>" media="print">
 
-        <link rel="stylesheet" href=" <?php echo rodesk_asset_path('styles/debug.css' ); ?>">
-    <?php endif; ?>
+    <link rel="stylesheet" href=" <?php echo rodesk_asset_path('styles/debug.css' ); ?>">
 
     <script src="<?php echo rodesk_load_modernizr(); ?>"></script>
 

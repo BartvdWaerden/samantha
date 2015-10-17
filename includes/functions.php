@@ -1,10 +1,10 @@
 <?php
 
 /*-----------------------------------------------------------------------------------*/
-/*  Include the Mobile Detect functions files
+/*  Include the spam protection function file
 /*-----------------------------------------------------------------------------------*/
 
-require_once('includes/detect-functions.php');
+require_once('includes/email-functions.php');
 
 /*-----------------------------------------------------------------------------------*/
 /*  Include the assets loading functions files

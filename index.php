@@ -9,7 +9,7 @@
         </figure>  
         <div class="o-panorama__content u-contain-padding u-contain">
             <h1>Op zoek naar een enthausiaste UX Designer? Ik zoek een afstudeerstage!</h1>
-            <a class="c-btn" href="#">Kom meer over mij te weten</a>
+            <a class="c-btn" hrefabout="#" id="js-scroll">Kom meer over mij te weten</a>
         </div>          
     </section>
 
@@ -91,7 +91,7 @@
                     </div>                                      
 
                     <div class="o-grid-cell u-size1of2--compact u-size1of3--large">
-                        <div class="c-card c-card--inactive c-card--6 js-block">
+                        <div class="c-card c-card--inactive c-card--6">
                             <div class="c-card__image">
                                 <img src="assets/images/card-minor-iuxd.jpg" alt="Minor IUXD">
                             </div>
@@ -112,9 +112,15 @@
                 <p>Ik ben een enthausiaste UX Desiger, en zit op dit moment in mijn laatste jaar van de opleiding CMD aan de Hogeschool Rotterdam.</p>
                 <p>Omdat ik in mijn laatste studiejaar zit, ben ik op zoek naar een afstudeerplek die geintresseerd is in mijn afstudeeronderwerp, namelijk: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
                 <p>Ben je net zo geintresseerd in dit onderwerp als ik ben? Kan ik bij jouw bedrijf terecht? Ik kom graag praten over een afstudeer plek!</p>
-                <div class="u-text-center">
-                    <a class="c-btn" href="mailto:contact@samanthavolk.nl">Neem contact met mij op</a>
-                    <a class="c-btn" href="mailto:contact@samanthavolk.nl">Download mijn CV</a>
+                <div class="o-section__buttons">
+                <div class="o-grid o-grid--with-gutter u-text-center">
+                    <div class="o-grid-cell u-size1of2--medium">
+                        <a class="c-btn c-btn--cta" href="mailto:<?php echo convert_email_adr('contact@samanthavolk.nl'); ?>">Neem contact op</a>
+                    </div>
+                    <div class="o-grid-cell u-size1of2--medium">
+                        <a class="c-btn c-btn--cta" href="#">Download mijn CV</a>
+                    </div>
+                </div>
                 </div>
             </div>
         </div>

@@ -4,7 +4,7 @@
 
 .o-section {
     @include u-clearfix();
-    @include u-rhythm-padding(2);
+    @include u-rhythm-padding(2.5);
 
     background-color: $color-white;
 
@@ -60,6 +60,14 @@
 
     .c-btn { margin-top: rhythm(1.5); }
 
+    .c-btn--cta { 
+        margin-top: rhythm(1);
+
+        @include breakpoint(large) {
+            margin-top: 0;
+        }
+    }
+
     .c-section__intro { 
         @include responsive-text-size('delta');
 
@@ -93,10 +101,16 @@
 
 .o-section--secondary { background-color: $color-gray-dark; }
 
-.o-section--footer { @include u-rhythm-padding(4, 1.5); }
+.o-section--footer { 
+    @include u-rhythm-padding(2.5, 1);
+
+    @include breakpoint(large) {
+        @include u-rhythm-padding(3.5, 1.5);
+    }
+}
 
 .o-section--cards { 
-    @include u-rhythm-padding(2);
+    @include u-rhythm-padding(2.5);
 
     @include breakpoint(medium) {
         @include u-rhythm-padding(3.5);
@@ -131,7 +145,11 @@
     padding-top: rhythm(1.5);
     border-top: 2px solid rgba($color-primary, .6); 
 
-    p {
-        max-width: 100%;
-    }
+    p { max-width: 100%; }
+}
+
+.o-section__buttons {
+    margin-right: auto;    
+    margin-left: auto;
+    max-width: $text-max-width;
 }

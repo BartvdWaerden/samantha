@@ -12,11 +12,10 @@
         background: shade($color-primary, 10%);
         color: $color-white;
     }
-
-    .c-card__image:hover {
-        img {
-            opacity: .1;
-        }
+    
+    .c-card:hover .c-card__image {
+        
+        img { opacity: .1; }
 
         &:after {
             opacity: 1;
@@ -24,6 +23,8 @@
             margin-bottom: -14px;
         }       
     }
+
+    .c-card--inactive:hover .c-card__image img {opacity: 1;}
 
     .c-content-info ul li a:hover {
         background-color: rgba($color-white, .7);
