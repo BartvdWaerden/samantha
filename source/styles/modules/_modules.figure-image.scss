@@ -2,30 +2,26 @@
     #MODULES FIGURE IMAGE
 \*----------------------------------------------------------------------------*/
 
-.o-figure-image { position: relative; }
+.o-figure-image { 
+    position: relative; 
+
+    figcaption {
+        @include u-trbl(null, null, 0, 0);
+        @include responsive-text-size('nano'); /* (Re)set font-size (it has been set to `0` by wrapping `.o-grid` element!) */
+        
+        position: absolute;
+        padding: rhythm(.5) $contain-percentage*2;
+        background-color: rgba($color-primary, .8);
+        color: $color-white;
+
+        @include breakpoint(medium) {
+            padding: rhythm(.5) $contain-percentage;
+        }           
+    }
+}
 
 /**
  * Always occupy available space (even when wider than natural width of image).
  */
 
 .o-figure-image-item { width: 100%; }
-
-/**
- * Figure-image figcaption.
- */
-
-.o-figure-image figcaption {
-    @include u-trbl(null, null, 0, 0);
-    @include responsive-text-size('nano'); /* (Re)set font-size (it has been set to `0` by wrapping `.o-grid` element!) */
-    
-    padding: rhythm(.5) $contain-percentage*2;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    background-color: rgba($color-primary, .8);
-    color: $color-white;
-
-    @include breakpoint(medium) {
-        padding: rhythm(.5) $contain-percentage;
-    }   
-}

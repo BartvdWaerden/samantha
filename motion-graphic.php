@@ -19,7 +19,7 @@
                 <hr>
             </div>
 
-            <div class="o-section">
+            <div class="o-section o-section--no-padding-top">
                 <h2>Het proces</h2>
                 <p class="c-section__intro">Het proces dat ik doorlopen heb was in het begin vooral de stappen van mijn Motion Graphic bepalen, waarna ik aan de slag ben gegaan met het storyboard. Na het maken van mijn storyboard heb ik onderzoek gedaan naar de stijl waarin ik mijn Motion Graphic uit wilde gaan werken. Nadat ik de stijl had bepaald heb ik de assets vormgegeven en heb ik mijn Motion Graphic gemonteerd.</p>
                 <h3>De handeling</h3>

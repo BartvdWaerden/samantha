@@ -2,31 +2,11 @@
     #MODULES RULER
 \*----------------------------------------------------------------------------*/
 
-/**
- * Extends 'hr'.
- * Demo: jsfiddle.net/inuitcss/L6GuZ
- */
-
 %c-ruler {
-    border: 0;
     height: 1px;
+    border: 0;    
     background-color: rgba($color-primary, .6);
 }
-
-
-/**
- * Dotted rules.
- */
-
-%c-ruler--dotted { border-top-style: dotted; }
-
-
-/**
- * Dashed rules.
- */
-
-%c-ruler--dashed { border-top-style: dashed; }
-
 
 /**
  * Activate horizontal ruler via @extend.

@@ -3,45 +3,47 @@
 \*----------------------------------------------------------------------------*/
 
 .o-panorama {
-	position: relative;
-	border-bottom: 10px solid $color-primary;
-	background-color: $color-gray-dark;
+    position: relative;
+    border-bottom: 10px solid $color-primary;
+    background-color: $color-gray-dark;
 }
 
 .o-panorama__content {
-	@include u-rhythm-padding(6, 3.5);
+    @include u-rhythm-padding(6, 3.5);
 
-	position: relative;
-	max-width: 750px;
-	margin: 0 auto;
-	color: $color-white;
+    position: relative;
+    max-width: 750px;
+    margin: 0 auto;
+    color: $color-white;
 
-	@include breakpoint(wide) {
-		max-width: 850px;
-	}
+    @include breakpoint(wide) {
+        max-width: 850px;
+    }
 
-	h1 {
-		@include responsive-text-size('alpha');
+    h1 {
+        @include responsive-text-size('alpha');
+        @include u-text-truncate();
+        
+        display: block;
+        margin-bottom: rhythm(1.5);
+    }
 
-		margin-bottom: rhythm(1.5);
-	}
+    span {
+        @include responsive-text-size('mega');
 
-	span {
-		@include responsive-text-size('mega');
-
-		display: block;
-		margin-bottom: rhythm(.25);
-		text-transform: uppercase;
-	}
+        display: block;
+        margin-bottom: rhythm(.25);
+        text-transform: uppercase;
+    }
 }
 
 .o-panorama__image {
-	@include u-square(100%);
+    @include u-square(100%);
 
-	position: absolute;
+    position: absolute;
 }
 
 .c-panorama--case h1 { 
-	font-family: $sans-font-medium;
-	text-transform: uppercase; 
+    font-family: $sans-font-medium;
+    text-transform: uppercase; 
 }

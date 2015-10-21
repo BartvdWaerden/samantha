@@ -2,14 +2,10 @@
     #MODULES BACKGROUNDS
 \*----------------------------------------------------------------------------*/
 
-.c-icon {
-    background-image: img-url( 'assets.svg' );
-}
+.c-icon { background-image: img-url( 'assets.svg' ); }
 
 .no-svg {
 
-    .c-icon {
-        background-image: img-url( 'assets.png' );
-    }
+    .c-icon { background-image: img-url( 'assets.png' ); }
 
 }

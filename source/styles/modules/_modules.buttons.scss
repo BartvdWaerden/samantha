@@ -28,15 +28,15 @@
 
     display: inline-block;
     position: relative;
-    padding: rhythm(.6) rhythm(1.25) rhythm(.5) rhythm(1.25);
+    padding: rhythm(.6) rhythm(1.25) rhythm(.5);
     border: 2px solid rgba($color-white, .4);
     border-radius: 0; /* 1 */
     color: $color-white;
     font-family: $sans-font-medium;
+    letter-spacing: 1px;    
     line-height: inherit; /* 2 */
+    text-transform: uppercase;    
     cursor: pointer;
-    text-transform: uppercase;
-    letter-spacing: 1px;
 }
 
 

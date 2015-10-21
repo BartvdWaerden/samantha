@@ -20,7 +20,7 @@
     <meta name="author" content="Samantha Volk">
     <meta name="description" content="Samantha Volk - Visual &amp; Interaction Designer">
     <meta name="robots" content="index, follow">
-    <meta name="apple-mobile-web-app-title" content="Rokit">
+    <meta name="apple-mobile-web-app-title" content="Samantha Volk">
     <title>Samantha Volk - Visual &amp; Interaction Designer</title>
 
     <?php include_once('favicons.php'); ?>
@@ -37,8 +37,6 @@
     <![endif]-->
 
     <link rel="stylesheet" href=" <?php echo rodesk_asset_path('styles/print.css' ); ?>" media="print">
-
-    <link rel="stylesheet" href=" <?php echo rodesk_asset_path('styles/debug.css' ); ?>">
 
     <script src="<?php echo rodesk_load_modernizr(); ?>"></script>
 

@@ -14,21 +14,22 @@
     }
     
     .c-card:hover .c-card__image {
+        background-color: $color-primary;
         
         img { opacity: .1; }
 
         &:after {
-            opacity: 1;
             bottom: 50%;
             margin-bottom: -14px;
+            opacity: 1;            
         }       
     }
 
     .c-card--inactive:hover .c-card__image img {opacity: 1;}
 
     .c-content-info ul li a:hover {
+        border: 2px solid rgba($color-white, 0);        
         background-color: rgba($color-white, .7);
-        border: 2px solid rgba($color-white, 0);
     }
 }
 

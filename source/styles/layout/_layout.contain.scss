@@ -7,7 +7,7 @@
     padding-left: $contain-percentage*2;
 
     @include breakpoint(medium) {
-	    padding-right: $contain-percentage;
-	    padding-left: $contain-percentage;    	
+        padding-right: $contain-percentage;
+        padding-left: $contain-percentage;
     }
 }

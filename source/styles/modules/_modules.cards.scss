@@ -2,40 +2,51 @@
     #MODULES CARDS
 \*----------------------------------------------------------------------------*/
 
-.c-card { margin-bottom: rhythm(2.5); }
+.c-card { 
+    margin-bottom: rhythm(1.25);
+
+    @include breakpoint(large) {
+        margin-bottom: rhythm(2);
+    }
+
+    @include breakpoint(wide) {
+        margin-bottom: rhythm(2.5);
+    }
+}
 
 .c-card__image {
-    position: relative;
+    position: relative;    
+    background-color: transparent;
+    transition: background .24s ease-in-out;
     overflow: hidden;
-    background-color: $color-primary;
 
     &:after {
-        z-index: 1;
+        @include u-z-index('base');
+        @include u-size(60px, 28px);
+
         display: block;
         position: absolute;
         bottom: -50px;
         left: 50%;
-        width: 60px;
-        height: 28px;
         margin-left: -30px;
-        content: '';
-        opacity: 0;
-        transition: all .32s ease-in;
-        background-position: -192px 0;
+        transition: all .32s ease-in-out;
         background-image: img-url('assets.svg');
+        background-position: -192px 0;
+        content: '';
+        opacity: 0;        
     }
 
     img { 
-        vertical-align: top;
         transition: opacity .32s ease-in-out;
+        vertical-align: top;        
         -webkit-backface-visibility: hidden;
     }
 }
 
 .c-card__content {
-    padding: rhythm(.75) rhythm(1) rhythm(.5) rhythm(1);
-    text-align: center;
+    padding: rhythm(.75) rhythm(1) rhythm(.5);
     background-color: $color-gray-dark;
+    text-align: center;
     color: $color-white;
 
     h3 {

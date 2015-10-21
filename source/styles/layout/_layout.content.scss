@@ -32,7 +32,7 @@
             @include u-size(50px, 2px);
 
             display: block;
-            margin: rhythm(.5) auto 0 auto;
+            margin: rhythm(.5) auto 0;
             background-color: $color-primary;
             content: '';
         }
@@ -50,8 +50,8 @@
     h3 { border-bottom: 1px solid rgba($color-primary, .6); }
 
     p { 
-        margin-bottom: rhythm(1.25);        
         max-width: $text-max-width;
+        margin-bottom: rhythm(1.25);        
 
         &:last-child { margin-bottom: 0; }
     }
@@ -77,8 +77,8 @@
     hr {
         display: block;
         width: 100%;
+        margin-top: rhythm(1.75);        
         float: left;
-        margin-top: rhythm(1.75);
     }
 
     img {
@@ -101,8 +101,20 @@
 
 .o-section--secondary { background-color: $color-gray-dark; }
 
+.o-section--no-padding-top {
+    padding-top: 0;
+
+    @include breakpoint(medium) {
+        padding-top: 0;
+    }
+}
+
 .o-section--footer { 
     @include u-rhythm-padding(2.5, 1);
+
+    @include breakpoint(medium) {
+        @include u-rhythm-padding(3.5, 1);
+    }
 
     @include breakpoint(large) {
         @include u-rhythm-padding(3.5, 1.5);
@@ -117,7 +129,7 @@
     }
 
     h2 { 
-        margin: 0 auto rhythm(3.25) auto;
+        margin: 0 auto rhythm(3.25);
         text-align: center;
         text-transform: uppercase;
 
@@ -125,7 +137,7 @@
             @include u-size(50px, 2px);
 
             display: block;
-            margin: rhythm(.5) auto 0 auto;
+            margin: rhythm(.5) auto 0;
             background-color: $color-primary;
             content: '';
         }
@@ -143,21 +155,20 @@
 .o-section__content {
     position: relative;
     padding-top: rhythm(1.5);
-    border-top: 2px solid rgba($color-primary, .6); 
+    border-top: 1px solid rgba($color-primary, .6); 
 
     p { max-width: 100%; }
 }
 
 .o-section__buttons {
-    margin-right: auto;    
+    max-width: $text-max-width;    
+    margin-right: auto;
     margin-left: auto;
-    max-width: $text-max-width;
 }
 
 .c-video {
+    display: block;    
     position: relative;
-    display: block;
-    border: 1px solid red;
 
     &:after {
         @include u-square(60px);

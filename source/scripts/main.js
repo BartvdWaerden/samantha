@@ -65,6 +65,7 @@
 
     $('.c-nav-main-toggle').on('click', function(e) {
         $('.c-nav-main__list').toggleClass('is-visible');
+        $('.c-nav-main-toggle').toggleClass('is-open');
 
         e.stopPropagation();
     });
@@ -76,7 +77,6 @@
     $("body").click(function(){
         $(".c-nav-main__list").removeClass("is-visible");
     });
-
 
     /*------------------------------------------------------------------------*/
     /*  Make link of whole element block

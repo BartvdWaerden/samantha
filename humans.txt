@@ -9,7 +9,7 @@
 	Site: http://www.samanthavolk.nl
 	Schiedam, the Netherlands
 
-	Developer: Bart van der Waerden Rodesk B.V.
+	Developer: Bart van der Waerden
 	Site: http://www.bartvanderwaerden.com
 	Twitter: http://twitter.com/bartvdwaerden
 	Rotterdam, the Netherlands
