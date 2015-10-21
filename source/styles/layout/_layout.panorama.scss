@@ -22,9 +22,7 @@
 
     h1 {
         @include responsive-text-size('alpha');
-        @include u-text-truncate();
-        
-        display: block;
+
         margin-bottom: rhythm(1.5);
     }
 
@@ -44,6 +42,9 @@
 }
 
 .c-panorama--case h1 { 
+    @include u-text-truncate();
+
+    display: block;
     font-family: $sans-font-medium;
     text-transform: uppercase; 
 }

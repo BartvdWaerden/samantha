@@ -84,7 +84,7 @@
                             </div>
                             <div class="c-card__content">
                                 <h3>Design This Huisstijl</h3>
-                                <span>Onderzoek en visueel design</span>
+                                <span>Onderzoek en visueel ontwerp</span>
                             </div>
                         </div>
                     </div>                                      
@@ -109,8 +109,7 @@
             <div class="u-contain u-contain-padding">
                 <h2>Over mij</h2>
                 <p>Ik ben een enthausiaste UX Desiger, en zit op dit moment in mijn laatste jaar van de opleiding CMD aan de Hogeschool Rotterdam.</p>
-                <p>Omdat ik in mijn laatste studiejaar zit, ben ik op zoek naar een afstudeerplek die geintresseerd is in mijn afstudeeronderwerp, namelijk: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-                <p>Ben je net zo geintresseerd in dit onderwerp als ik ben? Kan ik bij jouw bedrijf terecht? Ik kom graag praten over een afstudeer plek!</p>
+                <p>Omdat ik in mijn laatste studiejaar zit, ben ik op zoek naar een afstudeerplek die geintresseerd is in een enthausiaste UX Designer. Kan ik bij uw bedrijf terecht? Ik kom graag praten over een afstudeerplek!</p>
                 <div class="o-section__buttons">
                 <div class="o-grid o-grid--with-gutter u-text-center">
                     <div class="o-grid-cell u-size1of2--medium">
