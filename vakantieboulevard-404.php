@@ -14,7 +14,7 @@
         <div class="u-contain u-contain-padding">
             
             <div class="o-quote">
-                <p>‘’Vakantieboulevard is een platform waar kleine bedrijven hun reizen aanbieden. Dit doen zij door middel van etalages, welke zich bevinden in straten op de Vakantieboulevard. Vakantieboulevard wil geen gebruikers verliezen als zij op de 404 pagina komen’’.</p>
+                <p>‘’Vakantieboulevard is een platform waar kleine bedrijven hun reizen aanbieden. Dit doen zij door middel van etalages, welke zich bevinden in straten op de Vakantieboulevard. Vakantieboulevard wil geen gebruikers verliezen als zij op de 404 pagina komen’’</p>
             </div>
 
             <hr>
@@ -52,7 +52,7 @@
                     <div class="o-grid-cell u-size1of2--medium u-size1of3--large u-pull-left">
                         <div class="o-section__content">
                             <h4>Responsive</h4>
-                            <p>Omdat de website ook beschikbaar is op mobiel, was het belangrijk dat de pagina niet te lang werd. Op deze manier ziet de gebruiker alle informatie in een oogopslag, hoeft de gebruiker niet te scrollen en zoeken naar een oplossing. Hierdoor kan de gebruiker de interacties zien die hij of zij aan kan klikken om terug te gaan naar de gewenste pagina.</p>
+                            <p>Omdat de website ook beschikbaar is op mobiel, was het belangrijk dat de pagina niet te lang werd. Op deze manier ziet de gebruiker alle informatie in één oogopslag, hoeft de gebruiker niet te scrollen en zoeken naar een oplossing. Hierdoor kan de gebruiker alle interacties zien die hij of zij aan kan klikken om terug te gaan naar de gewenste pagina.</p>
                         </div>
                     </div>
                     <div class="o-grid-cell u-size1of2--medium u-size2of3--large u-pull-right">
@@ -66,7 +66,7 @@
                     <div class="o-grid-cell u-size1of2--medium u-size1of3--large u-pull-right">
                         <div class="o-section__content">
                             <h4>404</h4>
-                            <p>Een overzichtelijke 404 pagina met alle mogelijke interacties in het zicht. De gebruiker kan de Vakantieboulevard herkennen aan het kleurgebruik en de menu balk bovenaan de pagina. Ook zal de gebruiker niet snel schrikken en weg gaan door deze herkenning, en doordat de pagina verpakt is in een pakkend concept.</p>
+                            <p>Een overzichtelijke 404 pagina met alle mogelijke interacties in het zicht. De gebruiker kan de Vakantieboulevard herkennen aan het kleurgebruik en de menu balk bovenaan de pagina. Door deze herkenning en het overkoepelende concept zal de gebruiker niet snel schrikken of weg gaan.</p>
                         </div>
                     </div>
                     <div class="o-grid-cell u-size1of2--medium u-size2of3--large u-pull-left">
