@@ -145,11 +145,9 @@
 }
 
 .o-section--bottom {
-    border-top: 2px solid rgba($color-primary, .6);
+    border-top: 1px solid rgba($color-primary, .6);
 
-    h1 {
-        @include responsive-text-size('mega');
-    }
+    h1 { @include responsive-text-size('mega'); }
 }
 
 .o-section__content {

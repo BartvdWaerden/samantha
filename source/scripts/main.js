@@ -7,7 +7,7 @@
     $(document).ready(function() {
     	$(".js-image-liquid").imgLiquid({
     		fill: true,
-    		horizontalAlign: "80%",
+    		horizontalAlign: "85%",
         	verticalAlign: "50%"
     	});
 	});
