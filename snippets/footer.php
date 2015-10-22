@@ -8,7 +8,7 @@
                     <a class="c-icon c-icon--email" href="mailto:<?php echo convert_email_adr('contact@samanthavolk.com'); ?>">E-mail mij</a>
                 </li>
                 <li>
-                    <a class="c-icon c-icon--linkedin" href="https://www.linkedin.com/samanthavolk" target="_blank">Vind mij op LinkedIn</a>
+                    <a class="c-icon c-icon--linkedin" href="https://nl.linkedin.com/pub/samantha-volk/67/903/132" target="_blank">Vind mij op LinkedIn</a>
                 </li>
             </ul>
             <span>&copy; 2015 Samantha Volk</span>

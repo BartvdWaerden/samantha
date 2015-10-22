@@ -3,7 +3,7 @@
   WebFont.load({
     custom: {
       families: ['benton-sans-light', 'benton-sans', 'avenir-light', 'avenir-medium'],
-      urls: [ '/source/fonts/bentonsans/bentonsans.css', '/source/fonts/avenir/avenir.css']
+      urls: [ '/assets/fonts/bentonsans/bentonsans.css', '/assets/fonts/avenir/avenir.css']
     }
   });
 </script>
