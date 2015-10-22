@@ -15,7 +15,7 @@
             
             <div class="o-section">
                 <h2>De opdracht</h2>
-                <p class="c-section__intro">In het derde jaar van de opleiding CMD kreeg ik de opdracht om een Motion Graphic te creëeren op basis van een handeling, met het doel de handeling of het proces aan de kijker uit te leggen of duidelijker te maken. Het was aan mij de taak om een handeling te kiezen, een storyboard te maken en onderzoek te doen naar de visuele stijl en techniek waarna ik aan de slag kon gaan met het visualiseren van mijn handeling en het monteren van mijn Motion Graphic.</p>
+                <p class="c-section__intro">In het derde jaar van de opleiding CMD kreeg ik de opdracht om een Motion Graphic te ontwerpen op basis van een handeling, met het doel de handeling of het proces aan de kijker uit te leggen of duidelijker te maken. Het was aan mij de taak om een handeling te kiezen, een storyboard te maken en onderzoek te doen naar de visuele stijl en techniek waarna ik aan de slag kon gaan met het visualiseren van mijn handeling en het monteren van mijn Motion Graphic.</p>
                 <hr>
             </div>
 
@@ -23,11 +23,11 @@
                 <h2>Het proces</h2>
                 <p class="c-section__intro">Het proces dat ik doorlopen heb was in het begin vooral de stappen van mijn Motion Graphic bepalen, waarna ik aan de slag ben gegaan met het storyboard. Na het maken van mijn storyboard heb ik onderzoek gedaan naar de stijl waarin ik mijn Motion Graphic uit wilde gaan werken. Nadat ik de stijl had bepaald heb ik de assets vormgegeven en heb ik mijn Motion Graphic gemonteerd.</p>
                 <h3>De handeling</h3>
-                <p>De handeling die ik heb gekozen is: Hoe maak je een winged eyeliner? Dit onderwerp is complex genoeg en bevat genoeg stappen, maar is niet te ingewikkeld. Op YouTube zijn er veel video’s te vinden over hoe je eyeliner aanbrengt en dit is vaak een persoon die het bij zichzelf aanbrengt. Daarom lijkt het mij leuk om dit op mijn eigen manier te laten zien door middel van een Motion Graphic.</p>
+                <p>De handeling die ik heb gekozen is: Hoe maak je een winged eyeliner? Dit onderwerp is complex genoeg en bevat genoeg stappen, maar is niet te ingewikkeld. Op YouTube zijn er veel video’s te vinden over hoe je eyeliner aanbrengt en dit is vaak een persoon die het bij zichzelf aanbrengt. Daarom leek het mij leuk om dit op mijn eigen manier te laten zien door middel van een Motion Graphic.</p>
             </div>            
 
             <div class="o-pullquote u-pullviewport">
-                <p>‘’Ik had nog nooit in een smudge painting stijl gewerkt, daarom leek het mij juist een uitdaging!’’.</p>
+                <p>‘’Ik had nog nooit in een smudge painting stijl gewerkt, daarom leek het mij juist een uitdaging!’’</p>
             </div>
 
             <div class="o-section">
