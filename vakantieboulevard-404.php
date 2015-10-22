@@ -25,7 +25,7 @@
             </div>
 
             <div class="o-pullquote u-pullviewport">
-                <p>‘’In het begin liep ik vast, maar nadat ik alles aan de kant schoof en opnieuw begon kreeg ik een idee!’’.</p>
+                <p>‘’In het begin liep ik vast, maar nadat ik alles aan de kant schoof en opnieuw begon kreeg ik een idee!’’</p>
             </div>
 
             <div class="o-section">
