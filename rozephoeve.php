@@ -24,7 +24,7 @@
             </div>
 
             <div class="o-pullquote u-pullviewport">
-                <p>‘’Ik wil mijn grenzen opzoeken en overschrijden door het hele ontwerptraject te volgen van begin tot eind’’.</p>
+                <p>‘’Ik wil mijn grenzen opzoeken en overschrijden door het hele ontwerptraject te volgen van begin tot eind’’</p>
             </div>
 
             <div class="o-section">
