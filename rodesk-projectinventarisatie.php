@@ -28,7 +28,7 @@
                 <h3>Onderzoek</h3>
                 <p>Het overzicht is een belangrijk onderdeel van de inventarisatie, omdat de gebruiker redelijk wat vragen in moet vullen. Om de gebruiker een indicatie te geven van hoever hij of zij in de inventarisatie is, heb ik een balk ontworpen voor de voortgang. Omdat de focus ligt op de vragen, is de voortgangsbalk een subtiele witte balk met daarin een indicator met de voortgang. Ook hier is de herkenning van Rodesk belangrijk en heb ik hun huisstijl verwerkt in de ontwerpen.</p>
                 <h3>Badges</h3>
-                <p>Om de inventarisatie leuk te maken, krijgt de gebruiker een badge te wanneer hij of zij halverwege de inventarisatie is. Zo worden de gebruikers gemotiveerd om de inventarisatie af te maken. Daarnaast verdienen ze een badge als ze de inventarisatie hebben afgerond als een soort beloning voor het invullen. Omdat het een badge is die de gebruiker van Rodesk krijgt, was het belangrijk dat deze ook in Rodesk stijl ontworpen werd.</p>
+                <p>Om de inventarisatie leuk te maken, krijgt de gebruiker een badge wanneer hij of zij halverwege de inventarisatie is. Zo worden de gebruikers gemotiveerd om de inventarisatie af te maken. Daarnaast verdienen ze een badge als ze de inventarisatie hebben afgerond als een soort beloning voor het invullen. Omdat het een badge is die de gebruiker van Rodesk krijgt, was het belangrijk dat deze ook in Rodesk stijl ontworpen werd.</p>
             </div>
 
             <figure class="o-figure-image u-pullviewport">
