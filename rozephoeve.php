@@ -13,7 +13,7 @@
         <div class="u-contain u-contain-padding">
             
             <div class="o-quote">
-                <p>‘’Landgoed Rozephoeve is een landgoed in Oisterwijk dat meer zichtbaarheid wil creëren en hun landgoed op een moderne manier op de kaart wil zetten. Hiermee hopen zij bezoekers en passanten te informeren en nieuwsgierig te maken’’.</p>
+                <p>‘’Landgoed Rozephoeve is een landgoed in Oisterwijk dat meer zichtbaarheid wil creëren en hun landgoed op een moderne manier op de kaart wil zetten. Hiermee hopen zij bezoekers en passanten te informeren en nieuwsgierig te maken’’</p>
             </div>
 
             <hr>
@@ -33,7 +33,7 @@
                 <h3>Kleuren</h3>
                 <p>Voor de kleuren heb ik gekeken naar kleuren die ik associeerde met het landgoed, namelijk: natuur, landgoed, groots, natuurmomenten en geschiedenis.  Omdat de klant een moderne website wilde, heb ik het niet te veel gezocht in de donkere en bruintinten omdat dit al snel ouderwets wordt. Ik heb vooral gezocht naar kleuren die fris, helder en modern waren.</p>
                 <h3>Stijl elementen</h3>
-                <p>Om stijl elementen toe te ontwerpen, heb ik gekeken naar het landgoed zelf. De vorm van de buttons is bijvoorbeeld voortgekomen uit de namen van de huizen welke op het landgoed staan. Deze namen hebben er namelijk een kader omheen staan. Zo zitten er verschillende knipogen in het ontwerp die leiden naar het landgoed.</p>
+                <p>Om stijl elementen te ontwerpen, heb ik gekeken naar het landgoed zelf. De vorm van de buttons is bijvoorbeeld voortgekomen uit de namen van de huizen welke op het landgoed staan. Deze namen hebben er namelijk een kader omheen staan. Zo zitten er verschillende knipogen in het ontwerp die leiden naar het landgoed.</p>
             </div>
 
             <figure class="o-figure-image u-pullviewport">
