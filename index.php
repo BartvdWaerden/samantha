@@ -28,7 +28,7 @@
                             </div>
                             <div class="c-card__content">
                                 <h3>Landgoed Rozephoeve</h3>
-                                <span>Interactie en visueel ontwerp</span>
+                                <span>Interaction en visual design</span>
                             </div>
                         </div>
                     </div>
