@@ -42,7 +42,7 @@
                             </div>
                             <div class="c-card__content">
                                 <h3>Vakantieboulevard 404</h3>
-                                <span>Interactie en visueel ontwerp</span>
+                                <span>Interaction en visual design</span>
                             </div>
                         </div>
                     </div>
@@ -56,7 +56,7 @@
                             </div>
                             <div class="c-card__content">
                                 <h3>Rodesk Projectinventarisatie</h3>
-                                <span>Interactie en visueel ontwerp</span>
+                                <span>Interaction en visual design</span>
                             </div>
                         </div>
                     </div>  
@@ -70,7 +70,7 @@
                             </div>
                             <div class="c-card__content">
                                 <h3>Motion Graphic</h3>
-                                <span>Visueel ontwerp en video editing</span>
+                                <span>Visual design en video editing</span>
                             </div>
                         </div>
                     </div>                                          
@@ -84,7 +84,7 @@
                             </div>
                             <div class="c-card__content">
                                 <h3>Design This Huisstijl</h3>
-                                <span>Onderzoek en visueel ontwerp</span>
+                                <span>Research en visual design</span>
                             </div>
                         </div>
                     </div>                                      
@@ -108,8 +108,8 @@
         <div class="o-section o-section--primary" id="about">
             <div class="u-contain u-contain-padding">
                 <h2>Over mij</h2>
-                <p>Ik ben een enthausiaste UX Desiger, en zit op dit moment in mijn laatste jaar van de opleiding CMD aan de Hogeschool Rotterdam.</p>
-                <p>Omdat ik in mijn laatste studiejaar zit, ben ik op zoek naar een afstudeerplek die geintresseerd is in een enthausiaste UX Designer. Kan ik bij uw bedrijf terecht? Ik kom graag praten over een afstudeerplek!</p>
+                <p>Hi! Ik ben Samantha en op dit moment ben ik vierdejaars student Communication & Multimedia Design aan de Hogeschool Rotterdam. Als ik mijzelf zou moeten omschrijven in drie woorden ben ik enthousiast, leergierig en kritisch. Deze eigenschappen zet ik graag in tijdens het ontwerpen.</p>
+                <p>Omdat ik in het laatste jaar van mijn opleiding zit ben ik opzoek naar een afstudeerstage! Kan ik bij uw bedrijf terecht? Stuur mij dan een mailtje! Ik kom graag langs om te praten en ben niet vies van een bakje koffie.</p>
                 <div class="o-section__buttons">
                 <div class="o-grid o-grid--with-gutter u-text-center">
                     <div class="o-grid-cell u-size1of2--medium">
