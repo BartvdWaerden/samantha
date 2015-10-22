@@ -19,7 +19,7 @@
             </div>
 
             <div class="o-pullquote u-pullviewport">
-                <p>‘’Mijn huisstijl was aan vernieuwing toe. Design This was daarom de perfecte kans om hier wat aan te doen’’.</p>
+                <p>‘’Mijn huisstijl was aan vernieuwing toe. Design This was daarom de perfecte kans om hier wat aan te doen’’</p>
             </div>
 
             <div class="o-section">
