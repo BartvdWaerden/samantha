@@ -5,7 +5,7 @@
             <p>Daarnaast ben ik ook te vinden op LinkedIn.</p>
             <ul>
                 <li>
-                    <a class="c-icon c-icon--email" href="mailto:<?php echo convert_email_adr('contact@samanthavolk.com'); ?>">E-mail mij</a>
+                    <a class="c-icon c-icon--email" href="mailto:<?php echo convert_email_adr('contact@samanthavolk.nl'); ?>">E-mail mij</a>
                 </li>
                 <li>
                     <a class="c-icon c-icon--linkedin" href="https://nl.linkedin.com/pub/samantha-volk/67/903/132" target="_blank">Vind mij op LinkedIn</a>

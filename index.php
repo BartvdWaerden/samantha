@@ -113,7 +113,7 @@
                 <div class="o-section__buttons">
                 <div class="o-grid o-grid--with-gutter u-text-center">
                     <div class="o-grid-cell u-size1of2--medium">
-                        <a class="c-btn c-btn--cta" href="mailto:<?php echo convert_email_adr('contact@samanthavolk.com'); ?>">Neem contact op</a>
+                        <a class="c-btn c-btn--cta" href="mailto:<?php echo convert_email_adr('contact@samanthavolk.nl'); ?>">Neem contact op</a>
                     </div>
                     <div class="o-grid-cell u-size1of2--medium">
                         <a class="c-btn c-btn--cta" href="CV_Samantha_Volk.pdf" target="_blank">Download mijn CV</a>
