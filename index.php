@@ -8,7 +8,7 @@
             <img src="assets/images/panorama-samantha-volk.jpg" alt="Samantha Volk - Visual &amp; Interaction Designer">
         </figure>
         <div class="o-panorama__content u-contain-padding u-contain">
-            <h1>UX/UI Designer</h1>
+            <h1>Ik ben een enthousiaste UX/UI Designer</h1>
             <a class="c-btn" hrefabout="#" id="js-scroll">Kom meer over mij te weten</a>
         </div>
     </section>
