@@ -18,7 +18,7 @@ module.exports = function ($, gulp, manifest) {
         });
 
         gulp.watch([path.source + 'sketch/*.sketch'], ['sketch']);
-        gulp.watch([path.source + 'styles/**/*'], ['scsslint', 'styles']);
+        gulp.watch([path.source + 'styles/**/*'], ['styles']);
         gulp.watch([path.source + 'scripts/**/*'], ['jshint', 'scripts']);
         gulp.watch([path.source + 'images/**/*'], ['svg2png', 'images']);
         gulp.watch([path.source + 'fonts/**/*'], ['fonts']);

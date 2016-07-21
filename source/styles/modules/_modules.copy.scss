@@ -107,7 +107,7 @@
 
     h1 { @extend .u-alpha-heading; }
 
-    h2 { 
+    h2 {
         @extend .u-beta-heading;
         font-family: $heading-font;
     }
@@ -225,10 +225,10 @@
      * Unordered lists.
      */
 
-    ul,
-    ol { @extend .o-list; }
+    // ul,
+    // ol { @extend .o-list; }
 
-    .o-list--plain { @extend .o-list--plain; }
+    // .o-list--plain { @extend .o-list--plain; }
 
 
     /**
@@ -259,6 +259,6 @@
         #TABLES
     \*------------------------------------------------------------------------*/
 
-    table { @extend .o-table; }
+    // table { @extend .o-table; }
 
 }

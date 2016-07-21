@@ -12,7 +12,6 @@ module.exports = function () {
             'clean',
             'jshint',
             'scripts',
-            'scsslint',
             'styles',
             'sketch',
             'images',
