@@ -37,9 +37,9 @@
             </div>
 
             <figure class="o-figure-image u-pullviewport">
-                <img class="o-figure-image-item" src="assets/images/full-image-rozephoeve.jpg" alt="Wireframe Landgoed Rozephoeve">
+                <img class="o-figure-image-item" src="assets/images/full-image-minor-iuxd.jpg" alt="Filmen productvideo Minor IUXD">
                 <figcaption>
-                    <p>Wireframe homepage Landgoed Rozephoeve.</p>
+                    <p>Filmen productvideo Minor IUXD.</p>
                 </figcaption>                
             </figure>            
 
@@ -55,7 +55,7 @@
                         </div>
                     </div>
                     <div class="o-grid-cell u-size1of2--medium u-size2of3--large u-pull-right">
-                        <img class="u-pullviewport-right" src="assets/images/case-rozephoeve1.jpg" alt="Nieuwspagina responsive Landgoed Rozephoeve">
+                        <img class="u-pullviewport-right" src="assets/images/case-minor-iuxd1.jpg" alt="Opbouwen stad Minor IUXD">
                     </div>
                 </div>
             </div>
@@ -69,7 +69,7 @@
                         </div>
                     </div>
                     <div class="o-grid-cell u-size1of2--medium u-size2of3--large u-pull-left">
-                        <img class="u-pullviewport-left" src="assets/images/case-rozephoeve2.jpg" alt="Homepage Landgoed Rozephoeve">
+                        <img class="u-pullviewport-left" src="assets/images/case-minor-iuxd2.jpg" alt="Rekensom Minor IUXD">
                     </div>
                 </div>
             </div>
@@ -83,7 +83,7 @@
                         </div>
                     </div>
                     <div class="o-grid-cell u-size1of2--medium u-size2of3--large u-pull-right">
-                        <img class="u-pullviewport-right" src="assets/images/case-rozephoeve3.jpg" alt="Geschiedenis pagina Landgoed Rozephoeve">
+                        <img class="u-pullviewport-right" src="assets/images/case-minor-iuxd3.jpg" alt="Productvideo Minor IUXD">
                     </div>
                 </div>
             </div>

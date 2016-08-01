@@ -37,9 +37,9 @@
             </div>
 
             <figure class="o-figure-image u-pullviewport">
-                <img class="o-figure-image-item" src="assets/images/full-image-rozephoeve.jpg" alt="Wireframe Landgoed Rozephoeve">
+                <img class="o-figure-image-item" src="assets/images/full-image-rtl-nieuws.jpg" alt="Paper Prototypes RTL Nieuws Apple TV Applicatie">
                 <figcaption>
-                    <p>Wireframe homepage Landgoed Rozephoeve.</p>
+                    <p>Paper Prototypes RTL Nieuws Apple TV Applicatie.<p>
                 </figcaption>                
             </figure>            
 
@@ -55,7 +55,7 @@
                         </div>
                     </div>
                     <div class="o-grid-cell u-size1of2--medium u-size2of3--large u-pull-right">
-                        <img class="u-pullviewport-right" src="assets/images/case-rozephoeve1.jpg" alt="Nieuwspagina responsive Landgoed Rozephoeve">
+                        <img class="u-pullviewport-right" src="assets/images/case-rtl-nieuws1.jpg" alt="Personaliseren RTL Nieuws">
                     </div>
                 </div>
             </div>
@@ -69,7 +69,7 @@
                         </div>
                     </div>
                     <div class="o-grid-cell u-size1of2--medium u-size2of3--large u-pull-left">
-                        <img class="u-pullviewport-left" src="assets/images/case-rozephoeve2.jpg" alt="Homepage Landgoed Rozephoeve">
+                        <img class="u-pullviewport-left" src="assets/images/case-rtl-nieuws2.jpg" alt="Nieuwsfeed RTL Nieuws">
                     </div>
                 </div>
             </div>
@@ -83,11 +83,26 @@
                         </div>
                     </div>
                     <div class="o-grid-cell u-size1of2--medium u-size2of3--large u-pull-right">
-                        <img class="u-pullviewport-right" src="assets/images/case-rozephoeve3.jpg" alt="Geschiedenis pagina Landgoed Rozephoeve">
+                        <img class="u-pullviewport-right" src="assets/images/case-rtl-nieuws3.jpg" alt="Nieuwsitem RTL Nieuws">
                     </div>
                 </div>
             </div>
-            
+ 
+            <div class="o-section">
+                <div class="o-grid">                  
+                    <div class="o-grid-cell u-size1of2--medium u-size1of3--large u-pull-right">
+                        <div class="o-section__content">
+                            <h4>Homepage</h4>
+                            <p>Een uitnodigende binnenkomst voor gebruikers zowel op het landgoed als thuis, met een ingang naar meer informatie over de geschiedenis, de kaart en nieuwsberichten.</p>
+                        </div>
+                    </div>
+                    <div class="o-grid-cell u-size1of2--medium u-size2of3--large u-pull-left">
+                        <img class="u-pullviewport-left" src="assets/images/case-rtl-nieuws4.jpg" alt="Generieke content RTL Nieuws">
+                    </div>
+                </div>
+            </div>
+
+           
         </div>
     </section>
 </main>

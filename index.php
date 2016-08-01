@@ -8,7 +8,7 @@
             <img src="assets/images/panorama-samantha-volk.jpg" alt="Samantha Volk - Visual &amp; Interaction Designer">
         </figure>
         <div class="o-panorama__content u-contain-padding u-contain">
-            <h1>Ik ben een enthousiaste UX/UI Designer</h1>
+            <h1>Op zoek naar een enthousiaste UX/UI Designer? Ik zoek een baan!</h1>
             <a class="c-btn" hrefabout="#" id="js-scroll">Kom meer over mij te weten</a>
         </div>
     </section>
@@ -18,7 +18,7 @@
             <div class="u-contain u-contain-padding">
                 <h2>Portfolio</h2>
                 <div class="o-grid o-grid--with-gutter">
-                    
+
                      <div class="o-grid-cell u-size1of2--compact u-size1of3--large">
                            <div class="c-card js-block">
                                <div class="c-card__image">
@@ -124,17 +124,18 @@
         <div class="o-section o-section--primary" id="about">
             <div class="u-contain u-contain-padding">
                 <h2>Over mij</h2>
-                <p>Hi! Ik ben Samantha en op dit moment ben ik vierdejaars student Communication &amp; Multimedia Design aan de Hogeschool Rotterdam. Als ik mijzelf zou moeten omschrijven in drie woorden ben ik enthousiast, leergierig en kritisch. Deze eigenschappen zet ik graag in tijdens het ontwerpen.</p>
-                <p>Wanneer je meer over mij wilt weten kun je altijd contact met mij opnemen of mijn CV downloaden.</p>
+                <p>Hi! Ik ben Samantha, recent afgestudeerd aan de Hogeschool Rotterdam voor de opleiding Communication & Multimedia Design. Op dit moment ben ik op zoek naar een leuke fulltime baan waar ik mijn creativiteit en kennis in kwijt kan.</p>
+                <p>Enthousiast, leergierig en kritisch zijn de eigenschappen die mij het best omschrijven. Eigenschappen die ik graag inzet tijdens het ontwerpen.</p>
+                <p>Wilt u meer over mij weten? Aarzel niet en neem contact met mij op! Ik kom graag langs om te praten ben niet vies van een bakje koffie. Daarnaast kunt u ook mijn CV downloaden.</p>
                 <div class="o-section__buttons">
-                <div class="o-grid o-grid--with-gutter u-text-center">
-                    <div class="o-grid-cell u-size1of2--medium">
-                        <a class="c-btn c-btn--cta" href="mailto:<?php echo convert_email_adr('contact@samanthavolk.nl'); ?>">Neem contact op</a>
+                    <div class="o-grid o-grid--with-gutter u-text-center">
+                        <div class="o-grid-cell u-size1of2--medium">
+                            <a class="c-btn c-btn--cta" href="mailto:<?php echo convert_email_adr('contact@samanthavolk.nl'); ?>">Neem contact op</a>
+                        </div>
+                        <div class="o-grid-cell u-size1of2--medium">
+                            <a class="c-btn c-btn--cta" href="CV_Samantha_Volk.pdf" target="_blank">Download mijn CV</a>
+                        </div>
                     </div>
-                    <div class="o-grid-cell u-size1of2--medium">
-                        <a class="c-btn c-btn--cta" href="CV_Samantha_Volk.pdf" target="_blank">Download mijn CV</a>
-                    </div>
-                </div>
                 </div>
             </div>
         </div>
