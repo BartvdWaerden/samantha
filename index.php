@@ -18,6 +18,34 @@
             <div class="u-contain u-contain-padding">
                 <h2>Portfolio</h2>
                 <div class="o-grid o-grid--with-gutter">
+                    
+                     <div class="o-grid-cell u-size1of2--compact u-size1of3--large">
+                           <div class="c-card js-block">
+                               <div class="c-card__image">
+                                   <a href="rtlnieuws">
+                                       <img src="assets/images/card-rtl-nieuws.jpg" alt="RTL Nieuws">
+                                   </a>
+                               </div>
+                               <div class="c-card__content">
+                                 <h3>RTL Nieuws Apple TV Applicatie</h3>
+                                 <span>Research, interaction en visual design</span>
+                             </div>
+                         </div>
+                     </div>
+
+                     <div class="o-grid-cell u-size1of2--compact u-size1of3--large">
+                           <div class="c-card js-block">
+                               <div class="c-card__image">
+                                   <a href="minor-iuxd">
+                                       <img src="assets/images/card-minor-iuxd.jpg" alt="Minor IUXD">
+                                   </a>
+                               </div>
+                               <div class="c-card__content">
+                                 <h3>Minor IUXD</h3>
+                                 <span>Research, interaction en visual design</span>
+                             </div>
+                         </div>
+                     </div>
 
                     <div class="o-grid-cell u-size1of2--compact u-size1of3--large">
                         <div class="c-card js-block">
@@ -85,18 +113,6 @@
                             <div class="c-card__content">
                                 <h3>Design This Huisstijl</h3>
                                 <span>Research en visual design</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="o-grid-cell u-size1of2--compact u-size1of3--large">
-                        <div class="c-card c-card--inactive c-card--6">
-                            <div class="c-card__image">
-                                <img src="assets/images/card-minor-iuxd.jpg" alt="Minor IUXD">
-                            </div>
-                            <div class="c-card__content">
-                                <h3>Minor IUXD</h3>
-                                <span>Binnenkort beschikbaar</span>
                             </div>
                         </div>
                     </div>
