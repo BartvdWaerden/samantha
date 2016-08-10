@@ -6,52 +6,56 @@
         <div class="o-panorama__content u-contain-padding u-contain">
             <span>Case</span>
             <h1>RTL Nieuws</h1>
-        </div>          
+        </div>
     </section>
 
     <section class="copy">
         <div class="u-contain u-contain-padding">
-            
+
             <div class="o-quote">
-                <p>‘’Landgoed Rozephoeve is een landgoed in Oisterwijk dat meer zichtbaarheid wil creëren en hun landgoed op een moderne manier op de kaart wil zetten. Hiermee hopen zij bezoekers en passanten te informeren en nieuwsgierig te maken’’</p>
+                <p>‘’Hoe kan een interactief mediaproduct RTL Nieuws helpen millennials nieuws te laten consumeren, waarbij het nieuws via de lineaire televisie aangevuld of vervangen wordt?’’</p>
             </div>
 
             <hr>
-            
+
             <div class="o-section">
                 <h2>De opdracht</h2>
-                <p class="c-section__intro">Tijdens mijn stage bij Rodesk kreeg ik de opdracht om een website te ontwerpen voor Landgoed Rozephoeve. Omdat er nog geen website bestond van het landgoed, was het aan mij de taak om als interaction en visual designer onderzoek te doen naar de stijl voor de website en schermen te ontwerpen.</p>
+                <p class="c-section__intro">Tijdens mijn afstudeerstage is er samen met UNITiD en RTL Nieuws een afstudeeropdracht geformuleerd. De opdracht was het zoeken naar een manier waarop de millennial aan RTL nieuws verbonden wordt, met als randvoorwaarde dat de ontwerpoplossing minimaal een applicatie voor de Apple TV betreft. Aan mij de taak om onderzoek te doen, concepten te ontwikkelen, deze uit te werken en vervolgens te testen.</p>
             </div>
 
             <div class="o-pullquote u-pullviewport">
-                <p>‘’Ik wil mijn grenzen opzoeken en overschrijden door het hele ontwerptraject te volgen van begin tot eind’’</p>
+                <p>‘’Samantha is een zorgvuldige en gedreven designer met een heldere kijk op UX.’’</p>
+                <small>Frans Mettes - Senior Designer Digital RTL Nieuws</small>
             </div>
 
             <div class="o-section">
                 <h2>Het proces</h2>
-                <p class="c-section__intro">Het proces dat ik doorlopen heb was in het begin vooral veel stijlonderzoek doen, waarbij ik heb gekeken naar kleur, stijlelementen, tijdlijnen en kaarten. Na het doen van onderzoek ben ik aan de slag gegaan met ontwerpen en heb ik verschillende verbeterslagen gemaakt.</p>
-                <h3>Kleuren</h3>
-                <p>Voor de kleuren heb ik gekeken naar kleuren die ik associeerde met het landgoed, namelijk: natuur, landgoed, groots, natuurmomenten en geschiedenis.  Omdat de klant een moderne website wilde, heb ik het niet te veel gezocht in de donkere en bruintinten omdat dit al snel ouderwets wordt. Ik heb vooral gezocht naar kleuren die fris, helder en modern waren.</p>
-                <h3>Stijl elementen</h3>
-                <p>Om stijl elementen te ontwerpen, heb ik gekeken naar het landgoed zelf. De vorm van de buttons is bijvoorbeeld voortgekomen uit de namen van de huizen welke op het landgoed staan. Deze namen hebben er namelijk een kader omheen staan. Zo zitten er verschillende knipogen in het ontwerp die leiden naar het landgoed.</p>
+                <p class="c-section__intro">Het proces dat ik doorlopen heb bestond uit drie sprints, waarbij ik in elke sprint minimaal één keer de stappen onderzoeken, concept ontwikkelen, verbeelden en realiseren heb doorlopen. RTL Nieuws en de doelgroep zijn nauw betrokken geweest tijdens het gehele ontwerpproces. Dit heeft ervoor gezorgd dat de ontwerpvraag aan het eind van de afstudeerperiode is beantwoord.</p>
+
+                <h3>Onderzoek</h3>
+                <p>Uit literatuuronderzoek blijkt dat de lineaire zenders in de toekomst zullen verdwijnen. Consumenten willen steeds meer zelf bepalen wat zij kijken en wanneer. Dit blijkt ook uit doelgroeponderzoek. Millennials hebben geen tijd voor lineaire televisie en willen gepersonaliseerd nieuws, passend bij hun interesses zonder belangrijke gebeurtenissen te missen. De content moet afwisselend en tot hun beschikking zijn waar en wanneer zij willen en indien gewenst verdieping bieden.</p>
+                <p>Tot slot wijst onderzoek uit dat er kansen liggen bij de Apple TV voor RTL Nieuws. Er is weinig concurrentie op dit platform en geen van allen spelen in op bovenstaande wensen van de millennial.</p>
+
+                <h3>De ontwerpoplossing</h3>
+                <p>Uiteindelijk werkt de definitieve ontwerpoplossing samen met alle andere touchpoints van RTL Nieuws. Ook biedt het de mogelijkheid tot personalisatie en verdieping. Tot slot heeft de gebruiker ultieme vrijheid om zelf te bepalen wat hij waar en wanneer kijkt.</p>
             </div>
 
             <figure class="o-figure-image u-pullviewport">
                 <img class="o-figure-image-item" src="assets/images/full-image-rtl-nieuws.jpg" alt="Paper Prototypes RTL Nieuws Apple TV Applicatie">
                 <figcaption>
                     <p>Paper Prototypes RTL Nieuws Apple TV Applicatie.<p>
-                </figcaption>                
-            </figure>            
+                </figcaption>
+            </figure>
 
             <div class="o-section">
                 <h2>Het resultaat</h2>
-                <p class="c-section__intro">Uiteindelijk is dit het resultaat geworden, een moderne website voor Landgoed Rozephoeve. Hieronder zal ik een aantal punten uitlichten uit het ontwerp.</p>
+                <p class="c-section__intro">Uiteindelijk is het visuele ontwerp voor de Apple TV applicatie uitgewerkt. Hieronder worden een aantal punten uitgelicht.</p>
 
-                <div class="o-grid">
+                <div class="o-grid u-space-leader-xl">
                     <div class="o-grid-cell u-size1of2--medium u-size1of3--large u-pull-left">
                         <div class="o-section__content">
-                            <h4>Responsive</h4>
-                            <p>Omdat de website zowel thuis als op het landgoed beschikbaar moet zijn, was het niet meer dan logisch om hem responsive te ontwerpen. Hierdoor kun je ook op je mobiel of tablet makkelijk de nieuwsberichten en kaart met de daarop belangrijke hotspots bekijken.</p>
+                            <h4>Personaliseren</h4>
+                            <p>Wanneer de gebruiker de applicatie voor de eerste keer gebruikt, komt hij in een kort onboarding proces waarbij hij onderwerpen kan selecteren binnen zijn interessegebied. Door middel van progressive reduction past de content zich aan het gedrag van de gebruiker aan. Zo wordt de content nog relevanter voor de gebruiker.</p>
                         </div>
                     </div>
                     <div class="o-grid-cell u-size1of2--medium u-size2of3--large u-pull-right">
@@ -61,11 +65,11 @@
             </div>
 
             <div class="o-section">
-                <div class="o-grid">                  
+                <div class="o-grid">
                     <div class="o-grid-cell u-size1of2--medium u-size1of3--large u-pull-right">
                         <div class="o-section__content">
-                            <h4>Homepage</h4>
-                            <p>Een uitnodigende binnenkomst voor gebruikers zowel op het landgoed als thuis, met een ingang naar meer informatie over de geschiedenis, de kaart en nieuwsberichten.</p>
+                            <h4>Nieuwsfeed</h4>
+                            <p>Mijn nieuws is de persoonlijke nieuwsfeed van de gebruiker. Hier vind hij de eerder gekozen onderwerpen terug, nieuws dat hij later wil bekijken, trending nieuws en nieuws dat hij volgt.</p>
                         </div>
                     </div>
                     <div class="o-grid-cell u-size1of2--medium u-size2of3--large u-pull-left">
@@ -78,8 +82,8 @@
                 <div class="o-grid">
                     <div class="o-grid-cell u-size1of2--medium u-size1of3--large u-pull-left">
                         <div class="o-section__content">
-                            <h4>Geschiedenis</h4>
-                            <p>De geschiedenis is vanaf twee beginpunten te lezen. Je kunt de geschiedenis induiken vanaf 1738 voor informatie vanaf vroeger, of vanaf 2015 voor meer recentere informatie. </p>
+                            <h4>Nieuwsitem</h4>
+                            <p>Een nieuwsitem kan een tekstueel- of videoitem zijn, of een combinatie van beide. De focus ligt op de content en interacties. Onderaan het item is meer nieuws binnen het onderwerp en gerelateerd nieuws te vinden.</p>
                         </div>
                     </div>
                     <div class="o-grid-cell u-size1of2--medium u-size2of3--large u-pull-right">
@@ -87,13 +91,13 @@
                     </div>
                 </div>
             </div>
- 
+
             <div class="o-section">
-                <div class="o-grid">                  
+                <div class="o-grid">
                     <div class="o-grid-cell u-size1of2--medium u-size1of3--large u-pull-right">
                         <div class="o-section__content">
-                            <h4>Homepage</h4>
-                            <p>Een uitnodigende binnenkomst voor gebruikers zowel op het landgoed als thuis, met een ingang naar meer informatie over de geschiedenis, de kaart en nieuwsberichten.</p>
+                            <h4>Generieke content</h4>
+                            <p>Naast gepersonaliseerde content wordt ook generieke content en breaking nieuws aangeboden. Zo zorgt de ontwerpoplossing ervoor dat iedere gebruiker altijd en overal op de hoogte is van het nieuws.</p>
                         </div>
                     </div>
                     <div class="o-grid-cell u-size1of2--medium u-size2of3--large u-pull-left">
@@ -102,7 +106,7 @@
                 </div>
             </div>
 
-           
+
         </div>
     </section>
 </main>
