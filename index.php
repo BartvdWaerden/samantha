@@ -126,7 +126,7 @@
                 <h2>Over mij</h2>
                 <p>Hi! Ik ben Samantha, recent afgestudeerd aan de Hogeschool Rotterdam voor de opleiding Communication & Multimedia Design. Op dit moment ben ik op zoek naar een leuke fulltime baan waar ik mijn creativiteit en kennis in kwijt kan.</p>
                 <p>Enthousiast, leergierig en kritisch zijn de eigenschappen die mij het best omschrijven. Eigenschappen die ik graag inzet tijdens het ontwerpen.</p>
-                <p>Wilt u meer over mij weten? Aarzel niet en neem contact met mij op! Ik kom graag langs om te praten ben niet vies van een bakje koffie. Daarnaast kunt u ook mijn CV downloaden.</p>
+                <p>Wilt u meer over mij weten? Aarzel niet en neem contact met mij op! Ik kom graag langs om te praten en ben niet vies van een bakje koffie. Daarnaast kunt u ook mijn CV downloaden.</p>
                 <div class="o-section__buttons">
                     <div class="o-grid o-grid--with-gutter u-text-center">
                         <div class="o-grid-cell u-size1of2--medium">
