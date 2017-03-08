@@ -8,7 +8,7 @@
             <img src="assets/images/panorama-samantha-volk.jpg" alt="Samantha Volk - Visual &amp; Interaction Designer">
         </figure>
         <div class="o-panorama__content u-contain-padding u-contain">
-            <h1>Op zoek naar een enthousiaste UX/UI Designer? Ik zoek een baan!</h1>
+            <h1>UX/UI Designer</h1>
             <a class="c-btn" hrefabout="#" id="js-scroll">Kom meer over mij te weten</a>
         </div>
     </section>
@@ -124,9 +124,9 @@
         <div class="o-section o-section--primary" id="about">
             <div class="u-contain u-contain-padding">
                 <h2>Over mij</h2>
-                <p>Hi! Ik ben Samantha, recent afgestudeerd aan de Hogeschool Rotterdam voor de opleiding Communication & Multimedia Design. Op dit moment ben ik op zoek naar een leuke fulltime baan waar ik mijn creativiteit en kennis in kwijt kan.</p>
+                <p>Hi! Ik ben Samantha en ben werkzaam als Junior Designer bij RTL Nieuws. </p>
                 <p>Enthousiast, leergierig en kritisch zijn de eigenschappen die mij het best omschrijven. Eigenschappen die ik graag inzet tijdens het ontwerpen.</p>
-                <p>Wilt u meer over mij weten? Aarzel niet en neem contact met mij op! Ik kom graag langs om te praten en ben niet vies van een bakje koffie. Daarnaast kunt u ook mijn CV downloaden.</p>
+                <p>Wilt u meer over mij weten? U kunt altijd contact met mij opnemen of mijn CV downloaden.</p>
                 <div class="o-section__buttons">
                     <div class="o-grid o-grid--with-gutter u-text-center">
                         <div class="o-grid-cell u-size1of2--medium">
